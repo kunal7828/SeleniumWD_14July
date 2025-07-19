@@ -18,9 +18,27 @@ public class O_HRM_ValidateLeftDrawer7 {
 		
 		
 		driver.findElement(By.name("username")).sendKeys("Admin");
+		System.out.println("Username entered successfully");
+
+		
+		
+		
+		
+		
 		driver.findElement(By.name("password")).sendKeys("admin123");
+		System.out.println("Password entered successfully");
 		Thread.sleep(5000);
 		
+		
+		
+		
+		
+		
+		System.out.println("Click On login entered successfully");
+
+		
+		
+		System.out.println("Home Page URL"+driver.getCurrentUrl());
 		
 		String CurrentPageUrl= driver.getCurrentUrl();
 		System.out.println("URL: " + CurrentPageUrl);
