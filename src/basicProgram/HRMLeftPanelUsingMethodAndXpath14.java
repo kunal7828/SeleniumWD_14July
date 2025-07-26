@@ -73,8 +73,6 @@ public class HRMLeftPanelUsingMethodAndXpath14 {
 
 	}
 	
-	
-
 	public void clickOnAdmin() throws Exception {
 
 		driver.findElement(By.xpath("//span[text()='Admin']")).click();
@@ -91,16 +89,11 @@ public class HRMLeftPanelUsingMethodAndXpath14 {
 		System.out.println("Admin Page Displayed Successfully------> " + Text1);
 		System.out.println("Admin Page Displayed Successfully------> " + Header1);
 	}
-	
-	
 
 	public void clickOnPIM() throws Exception {
 
 		driver.findElement(By.xpath("//span[text()='PIM']")).click();
 		Thread.sleep(2000);
-
-		
-
 	}
 	
 	public void validatePIMPage()
@@ -231,9 +224,9 @@ public class HRMLeftPanelUsingMethodAndXpath14 {
 		driver.findElement(By.xpath("//button[text()=' Confirm ' and @type='submit']")).click();
 		Thread.sleep(3000);
 
-		
-
 	}
+	
+	
 	public void validateMaintenancePage()
 	{
 		String Text1 = driver.findElement(By.xpath("//h6[text()='Maintenance']")).getText();
