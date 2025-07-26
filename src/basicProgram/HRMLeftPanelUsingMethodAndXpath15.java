@@ -139,6 +139,18 @@ public class HRMLeftPanelUsingMethodAndXpath15 {
 
 	}
 	
+	//-------------------------------------------------------------------------------------------------------------------------------------------------		
+	//Verify Add User Functionality
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
 
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
