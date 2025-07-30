@@ -17,7 +17,7 @@ import browserCMD.webElementExample;
 public class HRMAdminCRUD16 {
 
 	WebDriver driver;
-
+//--------------------------------------------------------------------------------------------------------------------------------------------
 	public void openBrowser(String Url) throws Exception {
 		driver = new ChromeDriver();
 		driver.get(Url);
@@ -71,7 +71,7 @@ public class HRMAdminCRUD16 {
 		System.out.println("Page Title: " + pageTitle);
 
 	}
-
+	//--------------------------------------------------------------------------------------------------------------------------------------------
 	public void clickOnLeftPanelTab(String tabName) throws Exception {
 
 		driver.findElement(By.xpath("//span[text()='" + tabName + "']")).click();
