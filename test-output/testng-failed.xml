@@ -3,18 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGExamples.AdminTest24">
+      <class name="testNGExamples.HRMAdmin_CURD_26">
         <methods>
-          <include name="verifyUpdateUserFun"/>
-          <include name="verifySearchUserFun"/>
-          <include name="beforeMethod"/>
-          <include name="verifyAddUserFun"/>
-          <include name="verifyDeleteUserFun"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="afterClass"/>
+          <include name="beforeSuite"/>
+          <include name="selectUserRoleDD"/>
+          <include name="clickOnAdminLeftPanel"/>
+          <include name="afterSuite"/>
+          <include name="clickOnAddButton"/>
         </methods>
-      </class> <!-- testNGExamples.AdminTest24 -->
+      </class> <!-- testNGExamples.HRMAdmin_CURD_26 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

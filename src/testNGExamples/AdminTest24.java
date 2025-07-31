@@ -439,17 +439,22 @@ public class AdminTest24 {
 		
 		
 
-	/*
-		// Verify Delete User Functionality
-		driver.findElement(By.xpath("//span[text()='Admin']")).getText();
+	
+		
+		
+//	click on admin left panel--------------------------------------------------
+		driver.findElement(By.xpath("//span[text()='Admin']")).click();
+
+// Verify Delete User Functionality
+				driver.findElement(By.xpath("//span[text()='Admin']")).getText();
 		Thread.sleep(2000);
 
 		driver.findElement(By.xpath("//span[text()='Admin']")).isDisplayed();
 		Thread.sleep(2000);
 
-		
-//	click on admin left panel
-//		driver.findElement(By.xpath("//span[text()='Admin']")).click();
+
+		/*
+
 
 	driver.findElement(By.xpath("//span[text()='" + tabName1 + "']")).click();
 //		Thread.sleep(2000);
@@ -516,34 +521,7 @@ public class AdminTest24 {
 		
 		*/
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-	}
+		}
 
 	@BeforeClass
 	public void beforeClass() throws Exception {
