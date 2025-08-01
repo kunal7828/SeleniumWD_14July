@@ -1,210 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[open Browser With Login]]>
     </line>
+    <line>
+      <![CDATA[Login Page Displayed Successfully. -------> Login]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Displayed Successfully. -------> true]]>
+    </line>
+    <line>
+      <![CDATA[Username Entered Successfully. -------> Admin]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered Successfully. -------> admin123]]>
+    </line>
+    <line>
+      <![CDATA[Click On Login Successfully. -------> admin123]]>
+    </line>
+    <line>
+      <![CDATA[Dashobard Page Displayed Successfully. ------> Dashboard]]>
+    </line>
+    <line>
+      <![CDATA[Dashobard Page Displayed Successfully. ------> true]]>
+    </line>
+    <line>
+      <![CDATA[Current Page URL: ------> https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]]>
+    </line>
+    <line>
+      <![CDATA[Current Page Title: ------> OrangeHRM]]>
+    </line>
+    <line>
+      <![CDATA[AdminTab clicked successfully------------> Admin]]>
+    </line>
+    <line>
+      <![CDATA[AdminPage Boolean Verify Displayed successfully------------> true]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on windows (ece0521cf83cac67dbcd472fd73a2674)] -> xpath: //button[text()=' Add ']]Add Button Clicked Successfully.[[ChromeDriver: chrome on windows (ece0521cf83cac67dbcd472fd73a2674)] -> xpath: //button[text()=' Add ']]]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Select User Role Dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Select User Role Dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on profile icon]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on logout link.]]>
+    </line>
+    <line>
+      <![CDATA[Login Page Displayed-------------->true]]>
+    </line>
+    <line>
+      <![CDATA[Browser Closed successfully.]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-07-31T12:57:21 IST" name="Default suite" finished-at="2025-07-31T12:57:21 IST" duration-ms="86">
+  <suite started-at="2025-08-01T19:05:10 IST" name="Default suite" finished-at="2025-08-01T19:07:17 IST" duration-ms="126704">
     <groups>
     </groups>
-    <test started-at="2025-07-31T12:57:21 IST" name="Default test" finished-at="2025-07-31T12:57:21 IST" duration-ms="86">
+    <test started-at="2025-08-01T19:05:10 IST" name="Default test" finished-at="2025-08-01T19:07:17 IST" duration-ms="126704">
       <class name="testNGExamples.HRMAdmin_CURD_26">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]" started-at="2025-07-31T12:57:01 IST" name="beforeSuite" finished-at="2025-07-31T12:57:21 IST" duration-ms="19651" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Login']"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.26.0', revision: '69f9e5e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68137a21bb3e4ff271f4432075fcc3cc, findElement {using=xpath, value=//h5[text()='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68137a21bb3e4ff271f4432075fcc3cc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Login']"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.26.0', revision: '69f9e5e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68137a21bb3e4ff271f4432075fcc3cc, findElement {using=xpath, value=//h5[text()='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68137a21bb3e4ff271f4432075fcc3cc
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at testNGExamples.HRMAdmin_CURD_26.beforeSuite(HRMAdmin_CURD_26.java:216)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:04:49 IST" name="beforeSuite" finished-at="2025-08-01T19:05:10 IST" duration-ms="20852" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[open Browser With Login]]>
             </line>
+            <line>
+              <![CDATA[Login Page Displayed Successfully. -------> Login]]>
+            </line>
+            <line>
+              <![CDATA[Login Page Displayed Successfully. -------> true]]>
+            </line>
+            <line>
+              <![CDATA[Username Entered Successfully. -------> Admin]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered Successfully. -------> admin123]]>
+            </line>
+            <line>
+              <![CDATA[Click On Login Successfully. -------> admin123]]>
+            </line>
+            <line>
+              <![CDATA[Dashobard Page Displayed Successfully. ------> Dashboard]]>
+            </line>
+            <line>
+              <![CDATA[Dashobard Page Displayed Successfully. ------> true]]>
+            </line>
+            <line>
+              <![CDATA[Current Page URL: ------> https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]]>
+            </line>
+            <line>
+              <![CDATA[Current Page Title: ------> OrangeHRM]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="clickOnAdminLeftPanel()[pri:1, instance:testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]" started-at="2025-07-31T12:57:21 IST" name="clickOnAdminLeftPanel" description="clickOnAdminLeftPanel" finished-at="2025-07-31T12:57:21 IST" duration-ms="1" status="SKIP">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Login']"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.26.0', revision: '69f9e5e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68137a21bb3e4ff271f4432075fcc3cc, findElement {using=xpath, value=//h5[text()='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68137a21bb3e4ff271f4432075fcc3cc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h5[text()='Login']"}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.26.0', revision: '69f9e5e'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68137a21bb3e4ff271f4432075fcc3cc, findElement {using=xpath, value=//h5[text()='Login']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68137a21bb3e4ff271f4432075fcc3cc
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at testNGExamples.HRMAdmin_CURD_26.beforeSuite(HRMAdmin_CURD_26.java:216)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="clickOnAdminLeftPanel()[pri:1, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:10 IST" name="clickOnAdminLeftPanel" description="clickOnAdminLeftPanel" finished-at="2025-08-01T19:05:12 IST" duration-ms="1705" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[AdminTab clicked successfully------------> Admin]]>
+            </line>
+            <line>
+              <![CDATA[AdminPage Boolean Verify Displayed successfully------------> true]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnAdminLeftPanel -->
-        <test-method signature="clickOnAddButton()[pri:2, instance:testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]" started-at="2025-07-31T12:57:21 IST" name="clickOnAddButton" description="clickOnAddButton" finished-at="2025-07-31T12:57:21 IST" depends-on-methods="testNGExamples.HRMAdmin_CURD_26.clickOnAdminLeftPanel" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method testNGExamples.HRMAdmin_CURD_26.clickOnAddButton() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf depends on not successfully finished methods 
-[testNGExamples.HRMAdmin_CURD_26.clickOnAdminLeftPanel() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method testNGExamples.HRMAdmin_CURD_26.clickOnAddButton() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf depends on not successfully finished methods 
-[testNGExamples.HRMAdmin_CURD_26.clickOnAdminLeftPanel() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method signature="clickOnAddButton()[pri:2, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:12 IST" name="clickOnAddButton" description="clickOnAddButton" finished-at="2025-08-01T19:05:13 IST" duration-ms="1569" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on windows (ece0521cf83cac67dbcd472fd73a2674)] -> xpath: //button[text()=' Add ']]Add Button Clicked Successfully.[[ChromeDriver: chrome on windows (ece0521cf83cac67dbcd472fd73a2674)] -> xpath: //button[text()=' Add ']]]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnAddButton -->
-        <test-method signature="selectUserRoleDD(java.lang.String)[pri:3, instance:testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]" started-at="2025-07-31T12:57:21 IST" name="selectUserRoleDD" description="selectUserRoleDD" finished-at="2025-07-31T12:57:21 IST" depends-on-methods="testNGExamples.HRMAdmin_CURD_26.clickOnAddButton" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
-            <message>
-              <![CDATA[Method testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf depends on not successfully finished methods 
-[testNGExamples.HRMAdmin_CURD_26.clickOnAddButton() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf depends on not successfully finished methods 
-[testNGExamples.HRMAdmin_CURD_26.clickOnAddButton() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Throwable -->
+        <test-method signature="selectUserRoleDD()[pri:3, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:13 IST" name="selectUserRoleDD" description="selectUserRoleDD" finished-at="2025-08-01T19:05:18 IST" duration-ms="4283" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Clicked On Select User Role Dropdown.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- selectUserRoleDD -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]" started-at="2025-07-31T12:57:21 IST" name="afterSuite" finished-at="2025-07-31T12:57:21 IST" duration-ms="0" status="SKIP">
+        <test-method signature="selectStatusDD()[pri:4, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:18 IST" name="selectStatusDD" description="selectStatusDD" finished-at="2025-08-01T19:05:22 IST" duration-ms="4327" status="PASS">
           <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectStatusDD -->
+        <test-method signature="selectEmployeeName()[pri:5, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:22 IST" name="selectEmployeeName" description="selectEmployeeName" finished-at="2025-08-01T19:05:30 IST" duration-ms="8467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectEmployeeName -->
+        <test-method signature="enterUsername1()[pri:6, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:30 IST" name="enterUsername1" description="enterUsername1" finished-at="2025-08-01T19:05:37 IST" duration-ms="6329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUsername1 -->
+        <test-method signature="enterPassword1()[pri:7, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:37 IST" name="enterPassword1" description="enterPassword1" finished-at="2025-08-01T19:05:43 IST" duration-ms="6306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword1 -->
+        <test-method signature="enterConfirmPassword()[pri:8, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:43 IST" name="enterConfirmPassword" description="enterConfirmPassword" finished-at="2025-08-01T19:05:49 IST" duration-ms="6355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConfirmPassword -->
+        <test-method signature="clickOnSaveButton()[pri:9, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:49 IST" name="clickOnSaveButton" description="clickOnSaveButton" finished-at="2025-08-01T19:05:55 IST" duration-ms="5134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSaveButton -->
+        <test-method signature="searchUserName()[pri:10, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:55 IST" name="searchUserName" description="searchUserName" finished-at="2025-08-01T19:05:59 IST" duration-ms="4233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserName -->
+        <test-method signature="clickOnSearchButton()[pri:11, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:05:59 IST" name="clickOnSearchButton" description="clickOnSearchButton" finished-at="2025-08-01T19:06:07 IST" duration-ms="8274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchButton -->
+        <test-method signature="clickOnEditIcon()[pri:12, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:07 IST" name="clickOnEditIcon" description="clickOnEditIcon" finished-at="2025-08-01T19:06:12 IST" duration-ms="4639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEditIcon -->
+        <test-method signature="selectUserRoleDD_2()[pri:13, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:12 IST" name="selectUserRoleDD_2" description="selectUserRoleDD_2" finished-at="2025-08-01T19:06:16 IST" duration-ms="4310" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked On Select User Role Dropdown.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectUserRoleDD_2 -->
+        <test-method signature="selectStatusDD_2()[pri:14, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:16 IST" name="selectStatusDD_2" description="selectStatusDD_2" finished-at="2025-08-01T19:06:20 IST" duration-ms="4268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectStatusDD_2 -->
+        <test-method signature="selectEmployeeName_2()[pri:15, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:20 IST" name="selectEmployeeName_2" description="selectEmployeeName_2" finished-at="2025-08-01T19:06:29 IST" duration-ms="8501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectEmployeeName_2 -->
+        <test-method signature="enterUsername_2()[pri:16, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:29 IST" name="enterUsername_2" description="enterUsername_2" finished-at="2025-08-01T19:06:35 IST" duration-ms="6320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUsername_2 -->
+        <test-method signature="clickOnCheckBox()[pri:17, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:35 IST" name="clickOnCheckBox" description="clickOnCheckBox" finished-at="2025-08-01T19:06:37 IST" duration-ms="2137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCheckBox -->
+        <test-method signature="enterPassword_2()[pri:18, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:37 IST" name="enterPassword_2" description="enterPassword_2" finished-at="2025-08-01T19:06:44 IST" duration-ms="6306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword_2 -->
+        <test-method signature="enterConfirmPassword_2()[pri:19, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:44 IST" name="enterConfirmPassword_2" description="enterConfirmPassword_2" finished-at="2025-08-01T19:06:50 IST" duration-ms="6370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConfirmPassword_2 -->
+        <test-method signature="clickOnSaveButton_2()[pri:20, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:50 IST" name="clickOnSaveButton_2" description="clickOnSaveButton_2" finished-at="2025-08-01T19:06:55 IST" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSaveButton_2 -->
+        <test-method signature="searchUserName_2()[pri:21, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:06:55 IST" name="searchUserName_2" description="searchUserName_2" finished-at="2025-08-01T19:07:00 IST" duration-ms="4713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUserName_2 -->
+        <test-method signature="clickOnSearchButton_2()[pri:22, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:07:00 IST" name="clickOnSearchButton_2" description="clickOnSearchButton_2" finished-at="2025-08-01T19:07:08 IST" duration-ms="8315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSearchButton_2 -->
+        <test-method signature="clickOnDeleteIcon()[pri:23, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:07:08 IST" name="clickOnDeleteIcon" description="clickOnDeleteIcon" finished-at="2025-08-01T19:07:17 IST" duration-ms="8486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDeleteIcon -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGExamples.HRMAdmin_CURD_26@1ff4931d]" started-at="2025-08-01T19:07:17 IST" name="afterSuite" finished-at="2025-08-01T19:07:25 IST" duration-ms="8477" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicked on profile icon]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on logout link.]]>
+            </line>
+            <line>
+              <![CDATA[Login Page Displayed-------------->true]]>
+            </line>
+            <line>
+              <![CDATA[Browser Closed successfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- testNGExamples.HRMAdmin_CURD_26 -->

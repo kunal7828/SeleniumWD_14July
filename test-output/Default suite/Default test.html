@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/3</td>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 31 12:57:21 IST 2025</td>
+<td>Started on:</td><td>Fri Aug 01 19:05:10 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (86 ms)</td>
+<tr><td>Total time:</td><td>126 seconds (126704 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,293 +76,149 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.beforeSuite()'><b>beforeSuite</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br/>
-<a href="#Output-495702238" onClick='toggleBox("Output-495702238", this, "Show output", "Hide output");'>Show output</a>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSaveButton()'><b>clickOnSaveButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSaveButton</td>
+<td></td>
+<td>5</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnAddButton()'><b>clickOnAddButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnAddButton<br/>
+<a href="#Output-566641954" onClick='toggleBox("Output-566641954", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-495702238" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-495702238">
-open Browser With Login<br/>
+<a href="#Output-566641954" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-566641954">
+[[ChromeDriver: chrome on windows (ece0521cf83cac67dbcd472fd73a2674)] -> xpath: //button[text()=' Add ']]Add Button Clicked Successfully.[[ChromeDriver: chrome on windows (ece0521cf83cac67dbcd472fd73a2674)] -> xpath: //button[text()=' Add ']]<br/>
 </div>
 </td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h5[text()=&apos;Login&apos;]&quot;}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;69f9e5e&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68137a21bb3e4ff271f4432075fcc3cc, findElement {using=xpath, value=//h5[text()=&apos;Login&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68137a21bb3e4ff271f4432075fcc3cc
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at testNGExamples.HRMAdmin_CURD_26.beforeSuite(HRMAdmin_CURD_26.java:216)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace495702238", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace495702238'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h5[text()=&apos;Login&apos;]&quot;}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;69f9e5e&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68137a21bb3e4ff271f4432075fcc3cc, findElement {using=xpath, value=//h5[text()=&apos;Login&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68137a21bb3e4ff271f4432075fcc3cc
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at testNGExamples.HRMAdmin_CURD_26.beforeSuite(HRMAdmin_CURD_26.java:216)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>19</td>
-<td>testNGExamples.HRMAdmin_CURD_26@7a8c8dcf</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
+<td></td>
+<td>1</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnAdminLeftPanel()'><b>clickOnAdminLeftPanel</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnAdminLeftPanel</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h5[text()=&apos;Login&apos;]&quot;}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;69f9e5e&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68137a21bb3e4ff271f4432075fcc3cc, findElement {using=xpath, value=//h5[text()=&apos;Login&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68137a21bb3e4ff271f4432075fcc3cc
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at testNGExamples.HRMAdmin_CURD_26.beforeSuite(HRMAdmin_CURD_26.java:216)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace913242382", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace913242382'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h5[text()=&apos;Login&apos;]&quot;}
-  (Session info: chrome=137.0.7151.120)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;69f9e5e&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68137a21bb3e4ff271f4432075fcc3cc, findElement {using=xpath, value=//h5[text()=&apos;Login&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56201}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56201/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 68137a21bb3e4ff271f4432075fcc3cc
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at testNGExamples.HRMAdmin_CURD_26.beforeSuite(HRMAdmin_CURD_26.java:216)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:358)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testNGExamples.HRMAdmin_CURD_26@7a8c8dcf</td></tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.enterPassword_2()'><b>enterPassword_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterPassword_2</td>
+<td></td>
+<td>6</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD()'><b>selectUserRoleDD</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectUserRoleDD</td>
-<td><div><pre>java.lang.Throwable: Method testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf depends on not successfully finished methods 
-[testNGExamples.HRMAdmin_CURD_26.clickOnAddButton() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1533330615", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1533330615'><pre>java.lang.Throwable: Method testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf depends on not successfully finished methods 
-[testNGExamples.HRMAdmin_CURD_26.clickOnAddButton() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testNGExamples.HRMAdmin_CURD_26@7a8c8dcf</td></tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.searchUserName_2()'><b>searchUserName_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: searchUserName_2</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnAddButton()'><b>clickOnAddButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnAddButton</td>
-<td><div><pre>java.lang.Throwable: Method testNGExamples.HRMAdmin_CURD_26.clickOnAddButton() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf depends on not successfully finished methods 
-[testNGExamples.HRMAdmin_CURD_26.clickOnAdminLeftPanel() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2015999862", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2015999862'><pre>java.lang.Throwable: Method testNGExamples.HRMAdmin_CURD_26.clickOnAddButton() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf depends on not successfully finished methods 
-[testNGExamples.HRMAdmin_CURD_26.clickOnAdminLeftPanel() on instance testNGExamples.HRMAdmin_CURD_26@7a8c8dcf]
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:159)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>testNGExamples.HRMAdmin_CURD_26@7a8c8dcf</td></tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD_2()'><b>selectUserRoleDD_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectUserRoleDD_2<br/>
+<a href="#Output-670084377" onClick='toggleBox("Output-670084377", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-670084377" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-670084377">
+Clicked On Select User Role Dropdown.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.searchUserName()'><b>searchUserName</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: searchUserName</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.enterUsername1()'><b>enterUsername1</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterUsername1</td>
+<td></td>
+<td>6</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectStatusDD()'><b>selectStatusDD</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectStatusDD</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.enterPassword1()'><b>enterPassword1</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterPassword1</td>
+<td></td>
+<td>6</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSearchButton()'><b>clickOnSearchButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSearchButton</td>
+<td></td>
+<td>8</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD()'><b>selectUserRoleDD</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectUserRoleDD<br/>
+<a href="#Output-855547146" onClick='toggleBox("Output-855547146", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-855547146" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-855547146">
+Clicked On Select User Role Dropdown.<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSearchButton_2()'><b>clickOnSearchButton_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSearchButton_2</td>
+<td></td>
+<td>8</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnAdminLeftPanel()'><b>clickOnAdminLeftPanel</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnAdminLeftPanel<br/>
+<a href="#Output-1245593227" onClick='toggleBox("Output-1245593227", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1245593227" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1245593227">
+AdminTab clicked successfully------------> Admin<br/>
+AdminPage Boolean Verify Displayed successfully------------> true<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectEmployeeName_2()'><b>selectEmployeeName_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectEmployeeName_2</td>
+<td></td>
+<td>8</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnCheckBox()'><b>clickOnCheckBox</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnCheckBox</td>
+<td></td>
+<td>2</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSaveButton_2()'><b>clickOnSaveButton_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSaveButton_2</td>
+<td></td>
+<td>5</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnEditIcon()'><b>clickOnEditIcon</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnEditIcon</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.enterConfirmPassword_2()'><b>enterConfirmPassword_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterConfirmPassword_2</td>
+<td></td>
+<td>6</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnDeleteIcon()'><b>clickOnDeleteIcon</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnDeleteIcon</td>
+<td></td>
+<td>8</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectEmployeeName()'><b>selectEmployeeName</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectEmployeeName</td>
+<td></td>
+<td>8</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectStatusDD_2()'><b>selectStatusDD_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectStatusDD_2</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.enterUsername_2()'><b>enterUsername_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterUsername_2</td>
+<td></td>
+<td>6</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.enterConfirmPassword()'><b>enterConfirmPassword</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterConfirmPassword</td>
+<td></td>
+<td>6</td>
+<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
 </table><p>
 </body>
 </html>
