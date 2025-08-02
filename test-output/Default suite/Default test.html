@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>22/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 01 19:05:10 IST 2025</td>
+<td>Started on:</td><td>Sat Aug 02 11:21:52 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>126 seconds (126704 ms)</td>
+<tr><td>Total time:</td><td>126 seconds (126105 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,91 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnDeleteIcon()'><b>clickOnDeleteIcon</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnDeleteIcon</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[text()=&apos;Actions&apos;]//following::button[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;2a4c61c498&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.170, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63461}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63461/devtoo..., se:cdpVersion: 138.0.7204.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffce50ed5cfeef0f7835f53cc7bbe32f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at testNGExamples.HRMAdmin_CURD_26.clickOnDeleteIcon(HRMAdmin_CURD_26.java:416)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace665988980", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace665988980'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[text()=&apos;Actions&apos;]//following::button[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.34.0&apos;, revision: &apos;2a4c61c498&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.170, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63461}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63461/devtoo..., se:cdpVersion: 138.0.7204.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ffce50ed5cfeef0f7835f53cc7bbe32f
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at testNGExamples.HRMAdmin_CURD_26.clickOnDeleteIcon(HRMAdmin_CURD_26.java:416)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>10</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,149 +161,173 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSaveButton()'><b>clickOnSaveButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSaveButton</td>
-<td></td>
-<td>5</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
 <td title='testNGExamples.HRMAdmin_CURD_26.clickOnAddButton()'><b>clickOnAddButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnAddButton<br/>
-<a href="#Output-566641954" onClick='toggleBox("Output-566641954", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1717739363" onClick='toggleBox("Output-1717739363", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-566641954" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-566641954">
-[[ChromeDriver: chrome on windows (ece0521cf83cac67dbcd472fd73a2674)] -> xpath: //button[text()=' Add ']]Add Button Clicked Successfully.[[ChromeDriver: chrome on windows (ece0521cf83cac67dbcd472fd73a2674)] -> xpath: //button[text()=' Add ']]<br/>
+<a href="#Output-1717739363" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1717739363">
+Add Button Clicked Successfully.<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
 <td title='testNGExamples.HRMAdmin_CURD_26.enterPassword_2()'><b>enterPassword_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterPassword_2</td>
 <td></td>
 <td>6</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.enterConfirmPassword_2()'><b>enterConfirmPassword_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterConfirmPassword_2</td>
+<td></td>
+<td>6</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectStatusDD_2()'><b>selectStatusDD_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectStatusDD_2</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
 <td title='testNGExamples.HRMAdmin_CURD_26.searchUserName_2()'><b>searchUserName_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: searchUserName_2</td>
 <td></td>
-<td>4</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD_2()'><b>selectUserRoleDD_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectUserRoleDD_2<br/>
-<a href="#Output-670084377" onClick='toggleBox("Output-670084377", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-670084377" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-670084377">
-Clicked On Select User Role Dropdown.<br/>
-</div>
-</td>
-<td></td>
-<td>4</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.searchUserName()'><b>searchUserName</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: searchUserName</td>
-<td></td>
-<td>4</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.enterUsername1()'><b>enterUsername1</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterUsername1</td>
-<td></td>
-<td>6</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.selectStatusDD()'><b>selectStatusDD</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectStatusDD</td>
-<td></td>
-<td>4</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>5</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
 <td title='testNGExamples.HRMAdmin_CURD_26.enterPassword1()'><b>enterPassword1</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterPassword1</td>
 <td></td>
 <td>6</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSearchButton()'><b>clickOnSearchButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSearchButton</td>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectEmployeeName_2()'><b>selectEmployeeName_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectEmployeeName_2</td>
 <td></td>
 <td>8</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD()'><b>selectUserRoleDD</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectUserRoleDD<br/>
-<a href="#Output-855547146" onClick='toggleBox("Output-855547146", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-855547146" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-855547146">
-Clicked On Select User Role Dropdown.<br/>
-</div>
-</td>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnCheckBox()'><b>clickOnCheckBox</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnCheckBox</td>
+<td></td>
+<td>2</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.searchUserName()'><b>searchUserName</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: searchUserName</td>
 <td></td>
 <td>4</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSearchButton_2()'><b>clickOnSearchButton_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSearchButton_2</td>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSaveButton_2()'><b>clickOnSaveButton_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSaveButton_2</td>
 <td></td>
-<td>8</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>5</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
 <td title='testNGExamples.HRMAdmin_CURD_26.clickOnAdminLeftPanel()'><b>clickOnAdminLeftPanel</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnAdminLeftPanel<br/>
-<a href="#Output-1245593227" onClick='toggleBox("Output-1245593227", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1174586025" onClick='toggleBox("Output-1174586025", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1245593227" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1245593227">
-AdminTab clicked successfully------------> Admin<br/>
+<a href="#Output-1174586025" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1174586025">
+AdminTab clicked successfully------------> <br/>
+AdminPage Get Text Verify Displayed Successfully.Admin<br/>
 AdminPage Boolean Verify Displayed successfully------------> true<br/>
 </div>
 </td>
 <td></td>
 <td>1</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.selectEmployeeName_2()'><b>selectEmployeeName_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectEmployeeName_2</td>
-<td></td>
-<td>8</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnCheckBox()'><b>clickOnCheckBox</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnCheckBox</td>
-<td></td>
-<td>2</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSaveButton_2()'><b>clickOnSaveButton_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSaveButton_2</td>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSaveButton()'><b>clickOnSaveButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSaveButton</td>
 <td></td>
 <td>5</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnEditIcon()'><b>clickOnEditIcon</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnEditIcon</td>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD_2()'><b>selectUserRoleDD_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectUserRoleDD_2<br/>
+<a href="#Output-656349395" onClick='toggleBox("Output-656349395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-656349395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-656349395">
+Clicked On Select User Role Dropdown.<br/>
+</div>
+</td>
 <td></td>
 <td>4</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.enterConfirmPassword_2()'><b>enterConfirmPassword_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterConfirmPassword_2</td>
-<td></td>
-<td>6</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.clickOnDeleteIcon()'><b>clickOnDeleteIcon</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnDeleteIcon</td>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectEmployeeName()'><b>selectEmployeeName</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectEmployeeName<br/>
+<a href="#Output-659937029" onClick='toggleBox("Output-659937029", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-659937029" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-659937029">
+Select All Text Enabled<br/>
+Remove All Text Enabled<br/>
+Type Employee Name ----> a<br/>
+Employee Name Entered Successfully From List ----> a<br/>
+</div>
+</td>
 <td></td>
 <td>8</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.selectEmployeeName()'><b>selectEmployeeName</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectEmployeeName</td>
-<td></td>
-<td>8</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
-<tr>
-<td title='testNGExamples.HRMAdmin_CURD_26.selectStatusDD_2()'><b>selectStatusDD_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectStatusDD_2</td>
-<td></td>
-<td>4</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
 <td title='testNGExamples.HRMAdmin_CURD_26.enterUsername_2()'><b>enterUsername_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterUsername_2</td>
 <td></td>
 <td>6</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectStatusDD()'><b>selectStatusDD</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectStatusDD<br/>
+<a href="#Output-194107588" onClick='toggleBox("Output-194107588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-194107588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-194107588">
+Clicked On Status Dropdown<br/>
+EnabledStatus Selected Successfully----> Enabled<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 <tr>
 <td title='testNGExamples.HRMAdmin_CURD_26.enterConfirmPassword()'><b>enterConfirmPassword</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterConfirmPassword</td>
 <td></td>
 <td>6</td>
-<td>testNGExamples.HRMAdmin_CURD_26@1ff4931d</td></tr>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSearchButton_2()'><b>clickOnSearchButton_2</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSearchButton_2</td>
+<td></td>
+<td>8</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.selectUserRoleDD()'><b>selectUserRoleDD</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: selectUserRoleDD<br/>
+<a href="#Output-1716164115" onClick='toggleBox("Output-1716164115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1716164115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1716164115">
+Clicked On Select User Role Dropdown.<br/>
+AdminUser Role Selected Successfully ------> Admin<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnEditIcon()'><b>clickOnEditIcon</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnEditIcon</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.enterUsername1()'><b>enterUsername1</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: enterUsername1<br/>
+<a href="#Output-178401052" onClick='toggleBox("Output-178401052", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-178401052" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-178401052">
+Select All Text----> <br/>
+Remove All Text----> <br/>
+Username Entered Successfully----> kunal187<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
+<tr>
+<td title='testNGExamples.HRMAdmin_CURD_26.clickOnSearchButton()'><b>clickOnSearchButton</b><br>Test class: testNGExamples.HRMAdmin_CURD_26<br>Test method: clickOnSearchButton</td>
+<td></td>
+<td>8</td>
+<td>testNGExamples.HRMAdmin_CURD_26@26794848</td></tr>
 </table><p>
 </body>
 </html>

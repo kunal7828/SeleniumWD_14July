@@ -5,13 +5,9 @@
     <classes>
       <class name="testNGExamples.HRMAdmin_CURD_26">
         <methods>
-          <include name="clickOnSearchButton_2"/>
           <include name="beforeSuite"/>
           <include name="clickOnDeleteIcon"/>
           <include name="afterSuite"/>
-          <include name="clickOnSaveButton_2"/>
-          <include name="searchUserName_2"/>
-          <include name="enterConfirmPassword_2"/>
         </methods>
       </class> <!-- testNGExamples.HRMAdmin_CURD_26 -->
     </classes>
