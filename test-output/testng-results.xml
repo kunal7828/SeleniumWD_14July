@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="23" passed="22" failed="1" skipped="0">
+<testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[open Browser With Login]]>
@@ -77,7 +77,121 @@
       <![CDATA[Username Entered Successfully----> kunal187]]>
     </line>
     <line>
+      <![CDATA[Select All Text----> ]]>
+    </line>
+    <line>
+      <![CDATA[Remove All Text----> ]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered Successfully----> Kunal@123]]>
+    </line>
+    <line>
+      <![CDATA[Select All Text----> ]]>
+    </line>
+    <line>
+      <![CDATA[Remove All Text----> ]]>
+    </line>
+    <line>
+      <![CDATA[Confirm Password Entered Successfully----> Kunal@123]]>
+    </line>
+    <line>
+      <![CDATA[Click On Save Button Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username In Search Field Successfully.----> kunal187]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search Button Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Number of records found in the list. -----> (1) Record Found]]>
+    </line>
+    <line>
+      <![CDATA[User Name Found in Records -----> kunal187]]>
+    </line>
+    <line>
+      <![CDATA[Edit icon clicked Successfully.]]>
+    </line>
+    <line>
       <![CDATA[Clicked On Select User Role Dropdown.]]>
+    </line>
+    <line>
+      <![CDATA[User Role Selected Successfully From Dropdown------> ESS]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Status Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Status Selected Successfully From Dropdown----> Disabled]]>
+    </line>
+    <line>
+      <![CDATA[Select All Text.]]>
+    </line>
+    <line>
+      <![CDATA[Remove All Text.]]>
+    </line>
+    <line>
+      <![CDATA[Type Employee Name ----> l]]>
+    </line>
+    <line>
+      <![CDATA[Employee Name Selected Successfully From List.]]>
+    </line>
+    <line>
+      <![CDATA[Select All Text.]]>
+    </line>
+    <line>
+      <![CDATA[Remove All Text.]]>
+    </line>
+    <line>
+      <![CDATA[Username Entered Successfully----> kunal188]]>
+    </line>
+    <line>
+      <![CDATA[CheckBox icon clicked Successfully.kunal188]]>
+    </line>
+    <line>
+      <![CDATA[Select All Text.]]>
+    </line>
+    <line>
+      <![CDATA[Remove All Text.]]>
+    </line>
+    <line>
+      <![CDATA[Password Entered Successfully-----> Kunal@321]]>
+    </line>
+    <line>
+      <![CDATA[Select All Text.]]>
+    </line>
+    <line>
+      <![CDATA[Remove All Text.]]>
+    </line>
+    <line>
+      <![CDATA[Confirm Password Entered Successfully------>Kunal@321]]>
+    </line>
+    <line>
+      <![CDATA[Click On Save Button Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Enter Username In Search Field Successfully.----> kunal188]]>
+    </line>
+    <line>
+      <![CDATA[Click On Search Button Successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Number of records found in the list. -----> (1) Record Found]]>
+    </line>
+    <line>
+      <![CDATA[Updated User Name Found in Records -----> kunal188]]>
+    </line>
+    <line>
+      <![CDATA[Delete icon clicked Successfully]]>
+    </line>
+    <line>
+      <![CDATA[clicked on yes button.]]>
+    </line>
+    <line>
+      <![CDATA[User is deleted Successfully--------------->true]]>
+    </line>
+    <line>
+      <![CDATA[User is deleted Successfully--------------->true]]>
     </line>
     <line>
       <![CDATA[Clicked on profile icon]]>
@@ -92,12 +206,12 @@
       <![CDATA[Browser Closed successfully.]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-08-02T11:21:52 IST" name="Default suite" finished-at="2025-08-02T11:23:58 IST" duration-ms="126105">
+  <suite started-at="2025-08-02T15:06:04 IST" name="Default suite" finished-at="2025-08-02T15:08:02 IST" duration-ms="118029">
     <groups>
     </groups>
-    <test started-at="2025-08-02T11:21:52 IST" name="Default test" finished-at="2025-08-02T11:23:58 IST" duration-ms="126105">
+    <test started-at="2025-08-02T15:06:04 IST" name="Default test" finished-at="2025-08-02T15:08:02 IST" duration-ms="118029">
       <class name="testNGExamples.HRMAdmin_CURD_26">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:21:33 IST" name="beforeSuite" finished-at="2025-08-02T11:21:52 IST" duration-ms="19394" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:05:43 IST" name="beforeSuite" finished-at="2025-08-02T15:06:04 IST" duration-ms="20871" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[open Browser With Login]]>
@@ -131,7 +245,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="clickOnAdminLeftPanel()[pri:1, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:21:52 IST" name="clickOnAdminLeftPanel" description="clickOnAdminLeftPanel" finished-at="2025-08-02T11:21:54 IST" duration-ms="1500" status="PASS">
+        <test-method signature="clickOnAdminLeftPanel()[pri:1, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:04 IST" name="clickOnAdminLeftPanel" description="clickOnAdminLeftPanel" finished-at="2025-08-02T15:06:05 IST" duration-ms="1596" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[AdminTab clicked successfully------------> ]]>
@@ -144,14 +258,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- clickOnAdminLeftPanel -->
-        <test-method signature="clickOnAddButton()[pri:2, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:21:54 IST" name="clickOnAddButton" description="clickOnAddButton" finished-at="2025-08-02T11:21:55 IST" duration-ms="1503" status="PASS">
+        <test-method signature="clickOnAddButton()[pri:2, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:05 IST" name="clickOnAddButton" description="clickOnAddButton" finished-at="2025-08-02T15:06:07 IST" duration-ms="1544" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Add Button Clicked Successfully.]]>
             </line>
           </reporter-output>
         </test-method> <!-- clickOnAddButton -->
-        <test-method signature="selectUserRoleDD()[pri:3, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:21:55 IST" name="selectUserRoleDD" description="selectUserRoleDD" finished-at="2025-08-02T11:21:59 IST" duration-ms="4143" status="PASS">
+        <test-method signature="selectUserRoleDD()[pri:3, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:07 IST" name="selectUserRoleDD" description="selectUserRoleDD" finished-at="2025-08-02T15:06:11 IST" duration-ms="4174" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked On Select User Role Dropdown.]]>
@@ -161,7 +275,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- selectUserRoleDD -->
-        <test-method signature="selectStatusDD()[pri:4, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:21:59 IST" name="selectStatusDD" description="selectStatusDD" finished-at="2025-08-02T11:22:04 IST" duration-ms="4146" status="PASS">
+        <test-method signature="selectStatusDD()[pri:4, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:11 IST" name="selectStatusDD" description="selectStatusDD" finished-at="2025-08-02T15:06:15 IST" duration-ms="4139" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked On Status Dropdown]]>
@@ -171,7 +285,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- selectStatusDD -->
-        <test-method signature="selectEmployeeName()[pri:5, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:04 IST" name="selectEmployeeName" description="selectEmployeeName" finished-at="2025-08-02T11:22:12 IST" duration-ms="8294" status="PASS">
+        <test-method signature="selectEmployeeName()[pri:5, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:15 IST" name="selectEmployeeName" description="selectEmployeeName" finished-at="2025-08-02T15:06:24 IST" duration-ms="8284" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Select All Text Enabled]]>
@@ -187,7 +301,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- selectEmployeeName -->
-        <test-method signature="enterUsername1()[pri:6, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:12 IST" name="enterUsername1" description="enterUsername1" finished-at="2025-08-02T11:22:18 IST" duration-ms="6162" status="PASS">
+        <test-method signature="enterUsername1()[pri:6, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:24 IST" name="enterUsername1" description="enterUsername1" finished-at="2025-08-02T15:06:30 IST" duration-ms="6234" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Select All Text----> ]]>
@@ -200,126 +314,192 @@
             </line>
           </reporter-output>
         </test-method> <!-- enterUsername1 -->
-        <test-method signature="enterPassword1()[pri:7, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:18 IST" name="enterPassword1" description="enterPassword1" finished-at="2025-08-02T11:22:24 IST" duration-ms="6162" status="PASS">
+        <test-method signature="enterPassword1()[pri:7, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:30 IST" name="enterPassword1" description="enterPassword1" finished-at="2025-08-02T15:06:36 IST" duration-ms="6215" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Select All Text----> ]]>
+            </line>
+            <line>
+              <![CDATA[Remove All Text----> ]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered Successfully----> Kunal@123]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterPassword1 -->
-        <test-method signature="enterConfirmPassword()[pri:8, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:24 IST" name="enterConfirmPassword" description="enterConfirmPassword" finished-at="2025-08-02T11:22:30 IST" duration-ms="6213" status="PASS">
+        <test-method signature="enterConfirmPassword()[pri:8, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:36 IST" name="enterConfirmPassword" description="enterConfirmPassword" finished-at="2025-08-02T15:06:42 IST" duration-ms="6212" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Select All Text----> ]]>
+            </line>
+            <line>
+              <![CDATA[Remove All Text----> ]]>
+            </line>
+            <line>
+              <![CDATA[Confirm Password Entered Successfully----> Kunal@123]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterConfirmPassword -->
-        <test-method signature="clickOnSaveButton()[pri:9, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:30 IST" name="clickOnSaveButton" description="clickOnSaveButton" finished-at="2025-08-02T11:22:36 IST" duration-ms="5112" status="PASS">
+        <test-method signature="clickOnSaveButton()[pri:9, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:42 IST" name="clickOnSaveButton" description="clickOnSaveButton" finished-at="2025-08-02T15:06:47 IST" duration-ms="5085" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Click On Save Button Successfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnSaveButton -->
-        <test-method signature="searchUserName()[pri:10, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:36 IST" name="searchUserName" description="searchUserName" finished-at="2025-08-02T11:22:40 IST" duration-ms="4074" status="PASS">
+        <test-method signature="searchUserName()[pri:10, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:47 IST" name="searchUserName" description="searchUserName" finished-at="2025-08-02T15:06:52 IST" duration-ms="4131" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Enter Username In Search Field Successfully.----> kunal187]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchUserName -->
-        <test-method signature="clickOnSearchButton()[pri:11, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:40 IST" name="clickOnSearchButton" description="clickOnSearchButton" finished-at="2025-08-02T11:22:48 IST" duration-ms="8143" status="PASS">
+        <test-method signature="clickOnSearchButton()[pri:11, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:52 IST" name="clickOnSearchButton" description="clickOnSearchButton" finished-at="2025-08-02T15:06:57 IST" duration-ms="5140" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Click On Search Button Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Number of records found in the list. -----> (1) Record Found]]>
+            </line>
+            <line>
+              <![CDATA[User Name Found in Records -----> kunal187]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnSearchButton -->
-        <test-method signature="clickOnEditIcon()[pri:12, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:48 IST" name="clickOnEditIcon" description="clickOnEditIcon" finished-at="2025-08-02T11:22:52 IST" duration-ms="4536" status="PASS">
+        <test-method signature="clickOnEditIcon()[pri:12, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:06:57 IST" name="clickOnEditIcon" description="clickOnEditIcon" finished-at="2025-08-02T15:07:01 IST" duration-ms="4496" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Edit icon clicked Successfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnEditIcon -->
-        <test-method signature="selectUserRoleDD_2()[pri:13, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:52 IST" name="selectUserRoleDD_2" description="selectUserRoleDD_2" finished-at="2025-08-02T11:22:56 IST" duration-ms="4156" status="PASS">
+        <test-method signature="selectUserRoleDD_2()[pri:13, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:01 IST" name="selectUserRoleDD_2" description="selectUserRoleDD_2" finished-at="2025-08-02T15:07:05 IST" duration-ms="4143" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked On Select User Role Dropdown.]]>
             </line>
+            <line>
+              <![CDATA[User Role Selected Successfully From Dropdown------> ESS]]>
+            </line>
           </reporter-output>
         </test-method> <!-- selectUserRoleDD_2 -->
-        <test-method signature="selectStatusDD_2()[pri:14, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:22:56 IST" name="selectStatusDD_2" description="selectStatusDD_2" finished-at="2025-08-02T11:23:01 IST" duration-ms="4113" status="PASS">
+        <test-method signature="selectStatusDD_2()[pri:14, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:05 IST" name="selectStatusDD_2" description="selectStatusDD_2" finished-at="2025-08-02T15:07:09 IST" duration-ms="4130" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Clicked On Status Dropdown]]>
+            </line>
+            <line>
+              <![CDATA[Status Selected Successfully From Dropdown----> Disabled]]>
+            </line>
           </reporter-output>
         </test-method> <!-- selectStatusDD_2 -->
-        <test-method signature="selectEmployeeName_2()[pri:15, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:01 IST" name="selectEmployeeName_2" description="selectEmployeeName_2" finished-at="2025-08-02T11:23:09 IST" duration-ms="8190" status="PASS">
+        <test-method signature="selectEmployeeName_2()[pri:15, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:09 IST" name="selectEmployeeName_2" description="selectEmployeeName_2" finished-at="2025-08-02T15:07:18 IST" duration-ms="8298" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Select All Text.]]>
+            </line>
+            <line>
+              <![CDATA[Remove All Text.]]>
+            </line>
+            <line>
+              <![CDATA[Type Employee Name ----> l]]>
+            </line>
+            <line>
+              <![CDATA[Employee Name Selected Successfully From List.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- selectEmployeeName_2 -->
-        <test-method signature="enterUsername_2()[pri:16, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:09 IST" name="enterUsername_2" description="enterUsername_2" finished-at="2025-08-02T11:23:15 IST" duration-ms="6200" status="PASS">
+        <test-method signature="enterUsername_2()[pri:16, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:18 IST" name="enterUsername_2" description="enterUsername_2" finished-at="2025-08-02T15:07:22 IST" duration-ms="4184" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Select All Text.]]>
+            </line>
+            <line>
+              <![CDATA[Remove All Text.]]>
+            </line>
+            <line>
+              <![CDATA[Username Entered Successfully----> kunal188]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterUsername_2 -->
-        <test-method signature="clickOnCheckBox()[pri:17, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:15 IST" name="clickOnCheckBox" description="clickOnCheckBox" finished-at="2025-08-02T11:23:17 IST" duration-ms="2172" status="PASS">
+        <test-method signature="clickOnCheckBox()[pri:17, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:22 IST" name="clickOnCheckBox" description="clickOnCheckBox" finished-at="2025-08-02T15:07:24 IST" duration-ms="2080" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[CheckBox icon clicked Successfully.kunal188]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnCheckBox -->
-        <test-method signature="enterPassword_2()[pri:18, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:17 IST" name="enterPassword_2" description="enterPassword_2" finished-at="2025-08-02T11:23:23 IST" duration-ms="6316" status="PASS">
+        <test-method signature="enterPassword_2()[pri:18, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:24 IST" name="enterPassword_2" description="enterPassword_2" finished-at="2025-08-02T15:07:30 IST" duration-ms="6168" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Select All Text.]]>
+            </line>
+            <line>
+              <![CDATA[Remove All Text.]]>
+            </line>
+            <line>
+              <![CDATA[Password Entered Successfully-----> Kunal@321]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterPassword_2 -->
-        <test-method signature="enterConfirmPassword_2()[pri:19, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:23 IST" name="enterConfirmPassword_2" description="enterConfirmPassword_2" finished-at="2025-08-02T11:23:30 IST" duration-ms="6348" status="PASS">
+        <test-method signature="enterConfirmPassword_2()[pri:19, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:30 IST" name="enterConfirmPassword_2" description="enterConfirmPassword_2" finished-at="2025-08-02T15:07:36 IST" duration-ms="6150" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Select All Text.]]>
+            </line>
+            <line>
+              <![CDATA[Remove All Text.]]>
+            </line>
+            <line>
+              <![CDATA[Confirm Password Entered Successfully------>Kunal@321]]>
+            </line>
           </reporter-output>
         </test-method> <!-- enterConfirmPassword_2 -->
-        <test-method signature="clickOnSaveButton_2()[pri:20, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:30 IST" name="clickOnSaveButton_2" description="clickOnSaveButton_2" finished-at="2025-08-02T11:23:35 IST" duration-ms="5177" status="PASS">
+        <test-method signature="clickOnSaveButton_2()[pri:20, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:36 IST" name="clickOnSaveButton_2" description="clickOnSaveButton_2" finished-at="2025-08-02T15:07:41 IST" duration-ms="5071" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Click On Save Button Successfully.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnSaveButton_2 -->
-        <test-method signature="searchUserName_2()[pri:21, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:35 IST" name="searchUserName_2" description="searchUserName_2" finished-at="2025-08-02T11:23:40 IST" duration-ms="5012" status="PASS">
+        <test-method signature="searchUserName_2()[pri:21, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:41 IST" name="searchUserName_2" description="searchUserName_2" finished-at="2025-08-02T15:07:45 IST" duration-ms="4094" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Enter Username In Search Field Successfully.----> kunal188]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchUserName_2 -->
-        <test-method signature="clickOnSearchButton_2()[pri:22, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:40 IST" name="clickOnSearchButton_2" description="clickOnSearchButton_2" finished-at="2025-08-02T11:23:48 IST" duration-ms="8225" status="PASS">
+        <test-method signature="clickOnSearchButton_2()[pri:22, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:45 IST" name="clickOnSearchButton_2" description="clickOnSearchButton_2" finished-at="2025-08-02T15:07:54 IST" duration-ms="8142" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Click On Search Button Successfully.]]>
+            </line>
+            <line>
+              <![CDATA[Number of records found in the list. -----> (1) Record Found]]>
+            </line>
+            <line>
+              <![CDATA[Updated User Name Found in Records -----> kunal188]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnSearchButton_2 -->
-        <test-method signature="clickOnDeleteIcon()[pri:23, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:48 IST" name="clickOnDeleteIcon" description="clickOnDeleteIcon" finished-at="2025-08-02T11:23:58 IST" duration-ms="10112" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[text()='Actions']//following::button[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.34.0', revision: '2a4c61c498'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.170, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63461}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63461/devtoo..., se:cdpVersion: 138.0.7204.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ffce50ed5cfeef0f7835f53cc7bbe32f]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[text()='Actions']//following::button[1] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '4.34.0', revision: '2a4c61c498'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.170, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63461}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63461/devtoo..., se:cdpVersion: 138.0.7204.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ffce50ed5cfeef0f7835f53cc7bbe32f
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at testNGExamples.HRMAdmin_CURD_26.clickOnDeleteIcon(HRMAdmin_CURD_26.java:416)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="clickOnDeleteIcon()[pri:23, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:07:54 IST" name="clickOnDeleteIcon" description="clickOnDeleteIcon" finished-at="2025-08-02T15:08:02 IST" duration-ms="8272" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Delete icon clicked Successfully]]>
+            </line>
+            <line>
+              <![CDATA[clicked on yes button.]]>
+            </line>
+            <line>
+              <![CDATA[User is deleted Successfully--------------->true]]>
+            </line>
+            <line>
+              <![CDATA[User is deleted Successfully--------------->true]]>
+            </line>
           </reporter-output>
         </test-method> <!-- clickOnDeleteIcon -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T11:23:58 IST" name="afterSuite" finished-at="2025-08-02T11:24:07 IST" duration-ms="8325" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGExamples.HRMAdmin_CURD_26@26794848]" started-at="2025-08-02T15:08:02 IST" name="afterSuite" finished-at="2025-08-02T15:08:10 IST" duration-ms="8339" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Clicked on profile icon]]>
