@@ -2,27 +2,24 @@ package testNGExamples;
 
 import static org.testng.Assert.fail;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+
 import org.testng.annotations.Test;
 
 class TestJunit {
 
-	@BeforeAll
+//	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
 	}
 
-	@AfterAll
+//	@AfterAll
 	static void tearDownAfterClass() throws Exception {
 	}
 
-	@BeforeEach
+//	@BeforeEach
 	void setUp() throws Exception {
 	}
 
-	@AfterEach
+//	@AfterEach
 	void tearDown() throws Exception {
 	}
 
