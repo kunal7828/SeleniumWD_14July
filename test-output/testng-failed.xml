@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGExamples.HRMAdmin_CURD_26">
+      <class name="testNGExamples.HRMPIM_CURD_27">
         <methods>
+          <include name="clickOnLeftPanelTab"/>
           <include name="beforeSuite"/>
-          <include name="clickOnDeleteIcon"/>
           <include name="afterSuite"/>
         </methods>
-      </class> <!-- testNGExamples.HRMAdmin_CURD_26 -->
+      </class> <!-- testNGExamples.HRMPIM_CURD_27 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
