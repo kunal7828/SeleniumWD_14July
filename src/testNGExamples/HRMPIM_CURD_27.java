@@ -33,8 +33,6 @@ public class HRMPIM_CURD_27 {
 
 	String dashboardHeaderPageLoc = "//h6[text()='Dashboard']";
 
-
-
 	// Select UserRole --- Admin / ESS
 	String userRole1 = "Admin";
 	String userRole2 = "ESS";
@@ -46,8 +44,8 @@ public class HRMPIM_CURD_27 {
 	// locator left panel
 	String leftPaneltab1 = "PIM";
 	String tabNameHeader1 = "PIM";
-	
-	//--------------------------------------------------------------------
+
+	// --------------------------------------------------------------------
 
 	// tabName
 	String tabName = "PIM";
@@ -55,9 +53,7 @@ public class HRMPIM_CURD_27 {
 	// Employee Details
 	String firstName = "Kunal";
 	String lastName = "Sharma";
-	
-	
-	
+
 	// Username
 	String username1 = "kunal187";
 	String username2 = "kunal188";
@@ -69,6 +65,8 @@ public class HRMPIM_CURD_27 {
 	// Employee Name --- a or b
 	String employeeName1 = "Kunal";
 	String employeeName2 = "l";
+
+	String drivingLicence = "ABCD1235";
 
 //Reporter.log("",true);
 
@@ -140,7 +138,8 @@ public class HRMPIM_CURD_27 {
 	// -----------------------------------------------------------------------------------------------------------------------------------------
 
 	// select Status from drop down
-	@Test(enabled = true, priority = 4, description = "enterEmployeeDetails") // , dependsOnMethods = "selectUserRoleDD"
+	@Test(enabled = true, priority = 4, description = "enterEmployeeDetails") // , dependsOnMethods =
+																				// "selectUserRoleDD"
 	public void enterEmployeeDetails() throws Exception {
 		driver.findElement(By.xpath("//input[@name='firstName']")).sendKeys(firstName);
 		Reporter.log("Enter First Name", true);
@@ -153,7 +152,6 @@ public class HRMPIM_CURD_27 {
 		driver.findElement(By.xpath("//p[text()='Create Login Details']//following::label[1]")).click();
 		Reporter.log("Click On Toogle Button", true);
 		Thread.sleep(2000);
-
 
 		// enter Username1
 		driver.findElement(By.xpath("//label[text()='Username']//following::input[1]")).sendKeys(Keys.CONTROL + "a");
@@ -195,66 +193,59 @@ public class HRMPIM_CURD_27 {
 		By buttonLocator2 = By.xpath("//button[text()=' Save ']");
 		WebElement clickableElement2 = input.until(ExpectedConditions.elementToBeClickable(buttonLocator2));
 		clickableElement2.click();
-        //	driver.findElement(By.xpath("//button[text()=' Save ']")).click();
+		// driver.findElement(By.xpath("//button[text()=' Save ']")).click();
 		Reporter.log("Click On Save Button Successfully.", true);
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 
 	}
-	
+
 	// Verify Search User Functionality
 	// enter user Name
-	@Test(enabled = true, priority = 5, description = "searchUserName") // , dependsOnMethods = "clickOnSaveButton"
+	@Test(enabled = true, priority = 5, description = "navigateToPIMDashboard") // , dependsOnMethods =
+																				// "clickOnSaveButton"
+	public void navigateToPIMDashboard() throws Exception {
+		driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList");
+		Thread.sleep(3000);
+
+	}
+
+	// Verify Search User Functionality
+	// enter user Name
+	@Test(enabled = true, priority = 6, description = "searchUserName") // , dependsOnMethods = "clickOnSaveButton"
 	public void searchUserName() throws Exception {
+
 		WebDriverWait input = new WebDriverWait(driver, Duration.ofSeconds(10));
 		By buttonLocator2 = By.xpath("//label[text()='Employee Name']//following::input[1]");
 		WebElement clickableElement2 = input.until(ExpectedConditions.elementToBeClickable(buttonLocator2));
-		
-		clickableElement2.sendKeys(firstName +" " + lastName); //space ke sath text kese enter kare same field me.
+		Reporter.log("Element is clickable.", true);
+
+		driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]"))
+				.sendKeys(Keys.CONTROL + "a");
+		Reporter.log("Select All Text----> ", true);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]")).sendKeys(Keys.DELETE);
+		Reporter.log("Remove All Text ", true);
+		Thread.sleep(2000);
+		// driver.findElement(By.xpath("//label[text()='Employee
+		// Name']//following::input[1]")).sendKeys(employeeName1);
+		clickableElement2.sendKeys(firstName + " " + lastName); // space ke sath text kese enter kare same field me.
+
+		Reporter.log("Type Employee Name ----> " + firstName + " " + lastName, true);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//label[text()='Employee Name']//following::span[1]")).click();
+		Reporter.log("Employee Name Entered Successfully From List ----> " + firstName + " " + lastName, true);
+		Thread.sleep(2000);
 
 		// WebElement input =
 		// driver.findElement(By.xpath("//label[text()='Username']//following::input[1]"));
 		// input.sendKeys(username1);
 		// driver.findElement(By.xpath("//label[text()='Username']//following::input[1]")).sendKeys(username1);
-		Reporter.log("Enter Username In Search Field Successfully.----> " + firstName +" " + lastName, true);
+		Reporter.log("Enter Username In Search Field Successfully.----> " + firstName + " " + lastName, true);
 		Thread.sleep(4000);
-		
-		// click on employee Name and select employee name from list.
-	//	@Test(enabled = true, priority = 5, description = "selectEmployeeName") // , dependsOnMethods = "selectStatusDD"
-//		public void selectEmployeeName() throws Exception {
-			// Select all data in this field.
-			// element.sendKeys(Keys.CONTROL + "a");
-			// element.sendKeys(Keys.DELETE);
-			driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]"))
-					.sendKeys(Keys.CONTROL + "a");
-			Reporter.log("Select All Text----> ", true);
-			Thread.sleep(2000);
-			driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]")).sendKeys(Keys.DELETE);
-			Reporter.log("Remove All Text ", true);
-			Thread.sleep(2000);
-			driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]")).sendKeys(employeeName1);
-			Reporter.log("Type Employee Name ----> " + employeeName1, true);
-			Thread.sleep(2000);
-			driver.findElement(By.xpath("//label[text()='Employee Name']//following::span[1]")).click();
-			Reporter.log("Employee Name Entered Successfully From List ----> " + employeeName1, true);
-			Thread.sleep(2000);
+
 //		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-	
-		
-		
-		
-	// click on search button
+
+		// click on search button
 		driver.findElement(By.xpath("//button[text()=' Search ']")).click();
 		Reporter.log("Click On Search Button Successfully.", true);
 		Thread.sleep(3000);
@@ -270,28 +261,130 @@ public class HRMPIM_CURD_27 {
 		Thread.sleep(1000);
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	// Verify Update User Functionality
+	// click on edit icon
+
+	@Test(enabled = true, priority = 7, description = "clickOnEditIcon") // , dependsOnMethods = "clickOnSearchButton"
+	public void clickOnEditIcon() throws Exception {
+		driver.findElement(By.xpath("//div[text()='Actions']//following::button[1]")).click();
+		Reporter.log("Edit icon clicked Successfully.", true);
+		Thread.sleep(4000);
+
+		// @Test(enabled = true, priority = 8, description = "enterDrivingLicence") // ,
+		// dependsOnMethods = "clickOnSearchButton"
+		// public void enterDrivingLicence() throws Exception {
+		driver.findElement(By.xpath("//label[text()='License Expiry Date']//preceding::input[1]"))
+				.sendKeys(drivingLicence);
+		Reporter.log("Edit icon clicked Successfully.", true);
+		Thread.sleep(4000);
+
+		/*
+		 * // @Test(enabled = true, priority = 8, description = "enterDrivingLicence")
+		 * // , dependsOnMethods = "clickOnSearchButton" // public void
+		 * enterDrivingLicence() throws Exception { String nationality1 = "Indian";
+		 * 
+		 * driver.findElement(By.xpath(
+		 * "//label[text()='Nationality']//following::div[1]")).click();
+		 * Reporter.log("Clicked On Nationality Dropdown", true); Thread.sleep(2000);
+		 * driver.findElement(By.xpath("//span[text()='" + nationality1 +
+		 * "']")).click(); Reporter.log(nationality1 + "Selected Successfully----> " +
+		 * status1, true); Thread.sleep(2000);
+		 */
+		String maritalStatus = "Single";
+
+		driver.findElement(By.xpath("//label[text()='Marital Status']//following::div[1]")).click();
+		Reporter.log("Clicked On Nationality Dropdown", true);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//span[text()='" + maritalStatus + "']")).click();
+		Reporter.log(maritalStatus + "Selected Successfully----> " + status1, true);
+		Thread.sleep(2000);
+
+		WebDriverWait input = new WebDriverWait(driver, Duration.ofSeconds(10));
+		By buttonLocator2 = By.xpath("//label[text()='Gender']//following::button[1]");
+		WebElement clickableElement2 = input.until(ExpectedConditions.elementToBeClickable(buttonLocator2));
+		clickableElement2.click();
+		// driver.findElement(By.xpath("//button[text()=' Save ']")).click();
+		Reporter.log("Click On Save Button Successfully.", true);
+		Thread.sleep(5000);
+//					}
+
+	}
+
+	@Test(enabled = true, priority = 9, description = "navigateToPIMDashboard2") // , dependsOnMethods =
+	// "clickOnSaveButton"
+	public void navigateToPIMDashboard2() throws Exception {
+		driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList");
+		Thread.sleep(3000);
+
+	}
+
+	// Verify Search recently updated user for delete from records.
+	@Test(enabled = true, priority = 10, description = "searchUserName_2") // , dependsOnMethods = "clickOnSaveButton_2"
+	public void searchUserName_2() throws Exception {
+		WebDriverWait input = new WebDriverWait(driver, Duration.ofSeconds(10));
+		By buttonLocator2 = By.xpath("//label[text()='Employee Name']//following::input[1]");
+		WebElement clickableElement2 = input.until(ExpectedConditions.elementToBeClickable(buttonLocator2));
+		Reporter.log("Element is clickable.", true);
+
+		driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]"))
+				.sendKeys(Keys.CONTROL + "a");
+		Reporter.log("Select All Text----> ", true);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]")).sendKeys(Keys.DELETE);
+		Reporter.log("Remove All Text ", true);
+		Thread.sleep(2000);
+		// driver.findElement(By.xpath("//label[text()='Employee
+		// Name']//following::input[1]")).sendKeys(employeeName1);
+		clickableElement2.sendKeys(firstName + " " + lastName); // space ke sath text kese enter kare same field me.
+
+		Reporter.log("Type Employee Name ----> " + firstName + " " + lastName, true);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//label[text()='Employee Name']//following::span[1]")).click();
+		Reporter.log("Employee Name Entered Successfully From List ----> " + firstName + " " + lastName, true);
+		Thread.sleep(2000);
+
+		// WebElement input =
+		// driver.findElement(By.xpath("//label[text()='Username']//following::input[1]"));
+		// input.sendKeys(username1);
+		// driver.findElement(By.xpath("//label[text()='Username']//following::input[1]")).sendKeys(username1);
+		Reporter.log("Enter Username In Search Field Successfully.----> " + firstName + " " + lastName, true);
+		Thread.sleep(4000);
+
+	}
+
+
+	// Verify Delete User Functionality
+	// click on delete icon
+	@Test(enabled = true, priority = 10, description = "clickOnDeleteIcon") // , dependsOnMethods = //
+																			// "clickOnSearchButton_2"
+	public void clickOnDeleteIcon() throws Exception {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		By DeleteIcon = By.xpath("//div[text()='Actions']//following::button[2]");
+		WebElement clickableElement = wait.until(ExpectedConditions.elementToBeClickable(DeleteIcon));
+		clickableElement.click();
+		// driver.findElement(By.xpath("//div[text()='Actions']//following::button[1]")).click();
+		Reporter.log("Delete icon clicked Successfully", true);
+		Thread.sleep(2000);
+		// ----------------------------------------------------------------------------------------------------//
+		WebDriverWait wait2 = new WebDriverWait(driver, Duration.ofSeconds(10));
+		// Locator of the clickable element
+		By confirmationButton = By.xpath("//button[text()=' Yes, Delete ']");
+		// Wait until the element is clickable
+		WebElement clickableElement2 = wait2.until(ExpectedConditions.elementToBeClickable(confirmationButton));
+		// Now click the element
+		clickableElement2.click();
+		// driver.findElement(By.xpath("//button[text()=' Yes, Delete ']")).click();
+		Reporter.log("clicked on yes button.", true);
+		Thread.sleep(3000);
+		// ----------------------------------------------------------------------------------------------------//
+		driver.findElement(By.xpath("//p[text()='Successfully Deleted']")).getText();
+		Boolean userDeletedSuccessMsg = driver.findElement(By.xpath("//p[text()='Successfully Deleted']"))
+				.isDisplayed();
+		Reporter.log("User is deleted Successfully--------------->" + userDeletedSuccessMsg, true);
+		Boolean noRecordsFoundMsg = driver.findElement(By.xpath("//p[text()='Successfully Deleted']")).isDisplayed();
+		Reporter.log("User is deleted Successfully--------------->" + noRecordsFoundMsg, true);
+		Thread.sleep(3000);
+	}
 
 	@BeforeSuite
 	public void beforeSuite() throws Exception {
