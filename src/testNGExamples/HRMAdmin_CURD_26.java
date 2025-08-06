@@ -110,6 +110,7 @@ public class HRMAdmin_CURD_26 {
 		Reporter.log("Add Button Clicked Successfully.", true);
 		Thread.sleep(1000);
 	}
+	
 	// select user role from drop down
 	@Test(enabled = true, priority = 3, description = "selectUserRoleDD") // , dependsOnMethods = "clickOnAddButton"
 	public void selectUserRoleDD() throws Exception {
@@ -141,10 +142,10 @@ public class HRMAdmin_CURD_26 {
 		// element.sendKeys(Keys.DELETE);
 		driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]"))
 				.sendKeys(Keys.CONTROL + "a");
-		Reporter.log("Select All Text " + status1, true);
+		Reporter.log("Select All Text----> ", true);
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]")).sendKeys(Keys.DELETE);
-		Reporter.log("Remove All Text " + status1, true);
+		Reporter.log("Remove All Text ", true);
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]")).sendKeys(employeeName1);
 		Reporter.log("Type Employee Name ----> " + employeeName1, true);

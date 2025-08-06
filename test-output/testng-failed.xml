@@ -5,7 +5,7 @@
     <classes>
       <class name="testNGExamples.HRMPIM_CURD_27">
         <methods>
-          <include name="clickOnLeftPanelTab"/>
+          <include name="searchUserName"/>
           <include name="beforeSuite"/>
           <include name="afterSuite"/>
         </methods>

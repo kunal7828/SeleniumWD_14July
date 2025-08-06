@@ -3,6 +3,7 @@ package testNGExamples;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,32 +15,25 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class HRMPIM_CURD_27 {
-	
+
 	WebDriver driver;
 
 	String urlLoc = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 
 	String loginPageHeaderLocator = "//h5[text()='Login']";
 
-	String userNameLoginPageLoc = "//input[@name='username' and @placeholder='Username']";
+//	String userNameLoginPageLoc = "//input[@name='username' and @placeholder='Username']";                //or
+	String userNameLoginPageLoc = "//input[@name='username']";
 	String validUsername = "Admin";
 
-	String passwordLoginPageLoc = "//input[@type='password' or @name='password']";
+//	String passwordLoginPageLoc = "//input[@type='password' or @name='password']";                        //or
+	String passwordLoginPageLoc = "//input[@type='password']";
+
 	String validPassword = "admin123";
 
 	String dashboardHeaderPageLoc = "//h6[text()='Dashboard']";
 
-	// Username
-	String username1 = "kunal187";
-	String username2 = "kunal188";
 
-	// Password
-	String password1 = "Kunal@123";
-	String password2 = "Kunal@321";
-
-	// Employee Name --- a or b
-	String employeeName1 = "a";
-	String employeeName2 = "l";
 
 	// Select UserRole --- Admin / ESS
 	String userRole1 = "Admin";
@@ -53,8 +47,28 @@ public class HRMPIM_CURD_27 {
 	String leftPaneltab1 = "PIM";
 	String tabNameHeader1 = "PIM";
 	
-	//tabName
-	String tabName="PIM";
+	//--------------------------------------------------------------------
+
+	// tabName
+	String tabName = "PIM";
+
+	// Employee Details
+	String firstName = "Kunal";
+	String lastName = "Sharma";
+	
+	
+	
+	// Username
+	String username1 = "kunal187";
+	String username2 = "kunal188";
+
+	// Password
+	String password1 = "Kunal@123";
+	String password2 = "Kunal@321";
+
+	// Employee Name --- a or b
+	String employeeName1 = "Kunal";
+	String employeeName2 = "l";
 
 //Reporter.log("",true);
 
@@ -70,8 +84,7 @@ public class HRMPIM_CURD_27 {
 	 * 
 	 */
 // ------------------------------------------------------------------------------------------------------------------------------	
-	
-	
+
 	@Test(enabled = true, priority = 1, description = "clickOnAdminLeftPanel")
 	public void clickOnPIMLeftPanel() throws Exception {
 
@@ -104,15 +117,182 @@ public class HRMPIM_CURD_27 {
 				true);
 
 	}
+
 	// Verify Add User Functionality------> click on add button
-		@Test(enabled = true, priority = 2, description = "clickOnLeftPanelTab") // , dependsOnMethods =			
+	@Test(enabled = true, priority = 2, description = "clickOnLeftPanelTab") // , dependsOnMethods =
 	public void clickOnLeftPanelTab() throws Exception {
 
 		driver.findElement(By.xpath("//span[text()='" + tabName + "']")).click();
 		Thread.sleep(2000);
 		System.out.println(tabName + " tab clicked successfully.");
 	}
-  //--------------------------------------------------------------------//------------------------------------------------------------------------------------------------------------------------------	
+	// -----------------------------------------------------------------------------------------------------------------------------------------
+
+	// Verify Add User Functionality------> click on add button
+	@Test(enabled = true, priority = 3, description = "clickOnAddButton") // , dependsOnMethods = //
+																			// "clickOnAdminLeftPanel"
+	public void clickOnAddButton() throws Exception {
+		WebElement addbutton = driver.findElement(By.xpath("//button[text()=' Add ']"));
+		addbutton.click();
+		Reporter.log("Add Button Clicked Successfully.", true);
+		Thread.sleep(2000);
+	}
+	// -----------------------------------------------------------------------------------------------------------------------------------------
+
+	// select Status from drop down
+	@Test(enabled = true, priority = 4, description = "enterEmployeeDetails") // , dependsOnMethods = "selectUserRoleDD"
+	public void enterEmployeeDetails() throws Exception {
+		driver.findElement(By.xpath("//input[@name='firstName']")).sendKeys(firstName);
+		Reporter.log("Enter First Name", true);
+		Thread.sleep(2000);
+
+		driver.findElement(By.xpath("//input[@name='lastName']")).sendKeys(lastName);
+		Reporter.log("Enter Last Name", true);
+		Thread.sleep(2000);
+
+		driver.findElement(By.xpath("//p[text()='Create Login Details']//following::label[1]")).click();
+		Reporter.log("Click On Toogle Button", true);
+		Thread.sleep(2000);
+
+
+		// enter Username1
+		driver.findElement(By.xpath("//label[text()='Username']//following::input[1]")).sendKeys(Keys.CONTROL + "a");
+		Thread.sleep(2000);
+		Reporter.log("Select All Text----> ", true);
+		driver.findElement(By.xpath("//label[text()='Username']//following::input[1]")).sendKeys(Keys.DELETE);
+		Reporter.log("Remove All Text----> ", true);
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("//label[text()='Username']//following::input[1]")).sendKeys(username1);
+		Reporter.log("Username Entered Successfully----> " + username1, true);
+		Thread.sleep(2000);
+
+		// enter enterPassword1
+		driver.findElement(By.xpath("//label[text()='Password']//following::input[1]")).sendKeys(Keys.CONTROL + "a");
+		Thread.sleep(2000);
+		Reporter.log("Select All Text----> ", true);
+		driver.findElement(By.xpath("//label[text()='Password']//following::input[1]")).sendKeys(Keys.DELETE);
+		Thread.sleep(2000);
+		Reporter.log("Remove All Text----> ", true);
+		driver.findElement(By.xpath("//label[text()='Password']//following::input[1]")).sendKeys(password1);
+		Reporter.log("Password Entered Successfully----> " + password1, true);
+		Thread.sleep(2000);
+
+		// enter enterConfirmPassword
+
+		driver.findElement(By.xpath("//label[text()='Confirm Password']//following::input[1]"))
+				.sendKeys(Keys.CONTROL + "a");
+		Thread.sleep(2000);
+		Reporter.log("Select All Text----> ", true);
+		driver.findElement(By.xpath("//label[text()='Confirm Password']//following::input[1]")).sendKeys(Keys.DELETE);
+		Thread.sleep(2000);
+		Reporter.log("Remove All Text----> ", true);
+		driver.findElement(By.xpath("//label[text()='Confirm Password']//following::input[1]")).sendKeys(password1);
+		Reporter.log("Confirm Password Entered Successfully----> " + password1, true);
+		Thread.sleep(2000);
+
+		// click On SaveButton
+		WebDriverWait input = new WebDriverWait(driver, Duration.ofSeconds(10));
+		By buttonLocator2 = By.xpath("//button[text()=' Save ']");
+		WebElement clickableElement2 = input.until(ExpectedConditions.elementToBeClickable(buttonLocator2));
+		clickableElement2.click();
+        //	driver.findElement(By.xpath("//button[text()=' Save ']")).click();
+		Reporter.log("Click On Save Button Successfully.", true);
+		Thread.sleep(5000);
+
+	}
+	
+	// Verify Search User Functionality
+	// enter user Name
+	@Test(enabled = true, priority = 5, description = "searchUserName") // , dependsOnMethods = "clickOnSaveButton"
+	public void searchUserName() throws Exception {
+		WebDriverWait input = new WebDriverWait(driver, Duration.ofSeconds(10));
+		By buttonLocator2 = By.xpath("//label[text()='Employee Name']//following::input[1]");
+		WebElement clickableElement2 = input.until(ExpectedConditions.elementToBeClickable(buttonLocator2));
+		
+		clickableElement2.sendKeys(firstName +" " + lastName); //space ke sath text kese enter kare same field me.
+
+		// WebElement input =
+		// driver.findElement(By.xpath("//label[text()='Username']//following::input[1]"));
+		// input.sendKeys(username1);
+		// driver.findElement(By.xpath("//label[text()='Username']//following::input[1]")).sendKeys(username1);
+		Reporter.log("Enter Username In Search Field Successfully.----> " + firstName +" " + lastName, true);
+		Thread.sleep(4000);
+		
+		// click on employee Name and select employee name from list.
+	//	@Test(enabled = true, priority = 5, description = "selectEmployeeName") // , dependsOnMethods = "selectStatusDD"
+//		public void selectEmployeeName() throws Exception {
+			// Select all data in this field.
+			// element.sendKeys(Keys.CONTROL + "a");
+			// element.sendKeys(Keys.DELETE);
+			driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]"))
+					.sendKeys(Keys.CONTROL + "a");
+			Reporter.log("Select All Text----> ", true);
+			Thread.sleep(2000);
+			driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]")).sendKeys(Keys.DELETE);
+			Reporter.log("Remove All Text ", true);
+			Thread.sleep(2000);
+			driver.findElement(By.xpath("//label[text()='Employee Name']//following::input[1]")).sendKeys(employeeName1);
+			Reporter.log("Type Employee Name ----> " + employeeName1, true);
+			Thread.sleep(2000);
+			driver.findElement(By.xpath("//label[text()='Employee Name']//following::span[1]")).click();
+			Reporter.log("Employee Name Entered Successfully From List ----> " + employeeName1, true);
+			Thread.sleep(2000);
+//		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+		
+		
+		
+	// click on search button
+		driver.findElement(By.xpath("//button[text()=' Search ']")).click();
+		Reporter.log("Click On Search Button Successfully.", true);
+		Thread.sleep(3000);
+		// Number of record check in the list
+		String numberOfRecordGetText = driver.findElement(By.xpath("//button[text()=' Add ']//following::div[2]"))
+				.getText();
+		Reporter.log("Number of records found in the list. -----> " + numberOfRecordGetText, true);
+		Thread.sleep(1000);
+		// user name found in record check in the list
+		String searchUserNameGetText = driver.findElement(By.xpath("//button[text()=' Add ']//following::div[29]"))
+				.getText();
+		Reporter.log("User Name Found in Records -----> " + searchUserNameGetText, true);
+		Thread.sleep(1000);
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 	@BeforeSuite
 	public void beforeSuite() throws Exception {
 		Reporter.log("open Browser With Login", true);
