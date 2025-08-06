@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 06 14:21:46 IST 2025</td>
+<td>Started on:</td><td>Wed Aug 06 17:52:24 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>48 seconds (48072 ms)</td>
+<tr><td>Total time:</td><td>91 seconds (91442 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGExamples.HRMPIM_CURD_27.searchUserName()'><b>searchUserName</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: searchUserName</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[text()=&apos;Employee Name&apos;]//following::input[1] (tried for 10 second(s) with 500 milliseconds interval)
+<td title='testNGExamples.HRMPIM_CURD_27.clickOnEditIcon()'><b>clickOnEditIcon</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: clickOnEditIcon<br/>
+<a href="#Output-1540832538" onClick='toggleBox("Output-1540832538", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1540832538" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1540832538">
+Edit icon clicked Successfully.<br/>
+Edit icon clicked Successfully.<br/>
+Clicked On Nationality Dropdown<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Indian&apos;]&quot;}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.34.0&apos;, revision: &apos;2a4c61c498&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65123/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d00a5774dcb2d7dbac8315b1986a277
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at testNGExamples.HRMPIM_CURD_27.searchUserName(HRMPIM_CURD_27.java:210)
+Command: [ed8a3b0e009d40955bc4faa7016ed98a, findElement {using=xpath, value=//span[text()=&apos;Indian&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50813/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed8a3b0e009d40955bc4faa7016ed98a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at testNGExamples.HRMPIM_CURD_27.clickOnEditIcon(HRMPIM_CURD_27.java:288)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -112,16 +136,31 @@ Session ID: 3d00a5774dcb2d7dbac8315b1986a277
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1739555643", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1739555643'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //label[text()=&apos;Employee Name&apos;]//following::input[1] (tried for 10 second(s) with 500 milliseconds interval)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1540832538", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1540832538'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Indian&apos;]&quot;}
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.34.0&apos;, revision: &apos;2a4c61c498&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65123}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65123/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3d00a5774dcb2d7dbac8315b1986a277
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at testNGExamples.HRMPIM_CURD_27.searchUserName(HRMPIM_CURD_27.java:210)
+Command: [ed8a3b0e009d40955bc4faa7016ed98a, findElement {using=xpath, value=//span[text()=&apos;Indian&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50813/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ed8a3b0e009d40955bc4faa7016ed98a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at testNGExamples.HRMPIM_CURD_27.clickOnEditIcon(HRMPIM_CURD_27.java:288)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -150,7 +189,7 @@ Session ID: 3d00a5774dcb2d7dbac8315b1986a277
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
 <td>10</td>
-<td>testNGExamples.HRMPIM_CURD_27@10e31a9a</td></tr>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -161,11 +200,72 @@ Session ID: 3d00a5774dcb2d7dbac8315b1986a277
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testNGExamples.HRMPIM_CURD_27.enterEmployeeDetails()'><b>enterEmployeeDetails</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: enterEmployeeDetails<br/>
-<a href="#Output-1379148981" onClick='toggleBox("Output-1379148981", this, "Show output", "Hide output");'>Show output</a>
+<td title='testNGExamples.HRMPIM_CURD_27.clickOnAddButton()'><b>clickOnAddButton</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: clickOnAddButton<br/>
+<a href="#Output-2000469839" onClick='toggleBox("Output-2000469839", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1379148981" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1379148981">
+<a href="#Output-2000469839" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2000469839">
+Add Button Clicked Successfully.<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
+<tr>
+<td title='testNGExamples.HRMPIM_CURD_27.searchUserName()'><b>searchUserName</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: searchUserName<br/>
+<a href="#Output-1113829504" onClick='toggleBox("Output-1113829504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1113829504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1113829504">
+Element is clickable.<br/>
+Select All Text----> <br/>
+Remove All Text <br/>
+Type Employee Name ----> Kunal Sharma<br/>
+Employee Name Entered Successfully From List ----> Kunal Sharma<br/>
+Enter Username In Search Field Successfully.----> Kunal Sharma<br/>
+Click On Search Button Successfully.<br/>
+Number of records found in the list. -----> (1) Record Found<br/>
+User Name Found in Records -----> <br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
+<tr>
+<td title='testNGExamples.HRMPIM_CURD_27.clickOnDeleteIcon()'><b>clickOnDeleteIcon</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: clickOnDeleteIcon<br/>
+<a href="#Output-1088744071" onClick='toggleBox("Output-1088744071", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1088744071" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1088744071">
+Delete icon clicked Successfully<br/>
+clicked on yes button.<br/>
+User is deleted Successfully--------------->true<br/>
+User is deleted Successfully--------------->true<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
+<tr>
+<td title='testNGExamples.HRMPIM_CURD_27.clickOnPIMLeftPanel()'><b>clickOnPIMLeftPanel</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: clickOnAdminLeftPanel<br/>
+<a href="#Output-1430199669" onClick='toggleBox("Output-1430199669", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1430199669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1430199669">
+PIMTab clicked successfully------------> <br/>
+PIMPage Get Text Verify Displayed Successfully.PIM<br/>
+PIMPage Boolean Verify Displayed successfully------------> true<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
+<tr>
+<td title='testNGExamples.HRMPIM_CURD_27.enterEmployeeDetails()'><b>enterEmployeeDetails</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: enterEmployeeDetails<br/>
+<a href="#Output-1967617997" onClick='toggleBox("Output-1967617997", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1967617997" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1967617997">
 Enter First Name<br/>
 Enter Last Name<br/>
 Click On Toogle Button<br/>
@@ -182,39 +282,40 @@ Click On Save Button Successfully.<br/>
 </div>
 </td>
 <td></td>
-<td>29</td>
-<td>testNGExamples.HRMPIM_CURD_27@10e31a9a</td></tr>
+<td>27</td>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
+<tr>
+<td title='testNGExamples.HRMPIM_CURD_27.navigateToPIMDashboard()'><b>navigateToPIMDashboard</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: navigateToPIMDashboard</td>
+<td></td>
+<td>3</td>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
+<tr>
+<td title='testNGExamples.HRMPIM_CURD_27.searchUserName_2()'><b>searchUserName_2</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: searchUserName_2<br/>
+<a href="#Output-140428850" onClick='toggleBox("Output-140428850", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-140428850" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-140428850">
+Element is clickable.<br/>
+Select All Text----> <br/>
+Remove All Text <br/>
+Type Employee Name ----> Kunal Sharma<br/>
+Employee Name Entered Successfully From List ----> Kunal Sharma<br/>
+Enter Username In Search Field Successfully.----> Kunal Sharma<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
 <tr>
 <td title='testNGExamples.HRMPIM_CURD_27.clickOnLeftPanelTab()'><b>clickOnLeftPanelTab</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: clickOnLeftPanelTab</td>
 <td></td>
-<td>3</td>
-<td>testNGExamples.HRMPIM_CURD_27@10e31a9a</td></tr>
-<tr>
-<td title='testNGExamples.HRMPIM_CURD_27.clickOnPIMLeftPanel()'><b>clickOnPIMLeftPanel</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: clickOnAdminLeftPanel<br/>
-<a href="#Output-36531985" onClick='toggleBox("Output-36531985", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-36531985" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-36531985">
-PIMTab clicked successfully------------> <br/>
-PIMPage Get Text Verify Displayed Successfully.PIM<br/>
-PIMPage Boolean Verify Displayed successfully------------> true<br/>
-</div>
-</td>
-<td></td>
-<td>1</td>
-<td>testNGExamples.HRMPIM_CURD_27@10e31a9a</td></tr>
-<tr>
-<td title='testNGExamples.HRMPIM_CURD_27.clickOnAddButton()'><b>clickOnAddButton</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: clickOnAddButton<br/>
-<a href="#Output-1114335860" onClick='toggleBox("Output-1114335860", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1114335860" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1114335860">
-Add Button Clicked Successfully.<br/>
-</div>
-</td>
-<td></td>
 <td>2</td>
-<td>testNGExamples.HRMPIM_CURD_27@10e31a9a</td></tr>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
+<tr>
+<td title='testNGExamples.HRMPIM_CURD_27.navigateToPIMDashboard2()'><b>navigateToPIMDashboard2</b><br>Test class: testNGExamples.HRMPIM_CURD_27<br>Test method: navigateToPIMDashboard2</td>
+<td></td>
+<td>4</td>
+<td>testNGExamples.HRMPIM_CURD_27@57a3af25</td></tr>
 </table><p>
 </body>
 </html>
