@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGExamples.HRMPIM_CURD_27">
+      <class name="testNGExamples.HRMLoginDataProvider3">
         <methods>
-          <include name="clickOnEditIcon"/>
-          <include name="beforeSuite"/>
-          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="refreshPage"/>
+          <include name="verifyLoginFunwithInvalidpassword"/>
         </methods>
-      </class> <!-- testNGExamples.HRMPIM_CURD_27 -->
+      </class> <!-- testNGExamples.HRMLoginDataProvider3 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

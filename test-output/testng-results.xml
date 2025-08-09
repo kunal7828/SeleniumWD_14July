@@ -1,356 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
   <reporter-output>
-    <line>
-      <![CDATA[open Browser With Login]]>
-    </line>
-    <line>
-      <![CDATA[Login Page Displayed Successfully. -------> Login]]>
-    </line>
-    <line>
-      <![CDATA[Login Page Displayed Successfully. -------> true]]>
-    </line>
-    <line>
-      <![CDATA[Username Entered Successfully. -------> Admin]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered Successfully. -------> admin123]]>
-    </line>
-    <line>
-      <![CDATA[Click On Login Successfully. -------> admin123]]>
-    </line>
-    <line>
-      <![CDATA[Dashobard Page Displayed Successfully. ------> Dashboard]]>
-    </line>
-    <line>
-      <![CDATA[Dashobard Page Displayed Successfully. ------> true]]>
-    </line>
-    <line>
-      <![CDATA[Current Page URL: ------> https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]]>
-    </line>
-    <line>
-      <![CDATA[Current Page Title: ------> OrangeHRM]]>
-    </line>
-    <line>
-      <![CDATA[PIMTab clicked successfully------------> ]]>
-    </line>
-    <line>
-      <![CDATA[PIMPage Get Text Verify Displayed Successfully.PIM]]>
-    </line>
-    <line>
-      <![CDATA[PIMPage Boolean Verify Displayed successfully------------> true]]>
-    </line>
-    <line>
-      <![CDATA[Add Button Clicked Successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Enter First Name]]>
-    </line>
-    <line>
-      <![CDATA[Enter Last Name]]>
-    </line>
-    <line>
-      <![CDATA[Click On Toogle Button]]>
-    </line>
-    <line>
-      <![CDATA[Select All Text----> ]]>
-    </line>
-    <line>
-      <![CDATA[Remove All Text----> ]]>
-    </line>
-    <line>
-      <![CDATA[Username Entered Successfully----> kunal187]]>
-    </line>
-    <line>
-      <![CDATA[Select All Text----> ]]>
-    </line>
-    <line>
-      <![CDATA[Remove All Text----> ]]>
-    </line>
-    <line>
-      <![CDATA[Password Entered Successfully----> Kunal@123]]>
-    </line>
-    <line>
-      <![CDATA[Select All Text----> ]]>
-    </line>
-    <line>
-      <![CDATA[Remove All Text----> ]]>
-    </line>
-    <line>
-      <![CDATA[Confirm Password Entered Successfully----> Kunal@123]]>
-    </line>
-    <line>
-      <![CDATA[Click On Save Button Successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Element is clickable.]]>
-    </line>
-    <line>
-      <![CDATA[Select All Text----> ]]>
-    </line>
-    <line>
-      <![CDATA[Remove All Text ]]>
-    </line>
-    <line>
-      <![CDATA[Type Employee Name ----> Kunal Sharma]]>
-    </line>
-    <line>
-      <![CDATA[Employee Name Entered Successfully From List ----> Kunal Sharma]]>
-    </line>
-    <line>
-      <![CDATA[Enter Username In Search Field Successfully.----> Kunal Sharma]]>
-    </line>
-    <line>
-      <![CDATA[Click On Search Button Successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Number of records found in the list. -----> (1) Record Found]]>
-    </line>
-    <line>
-      <![CDATA[User Name Found in Records -----> ]]>
-    </line>
-    <line>
-      <![CDATA[Edit icon clicked Successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Edit icon clicked Successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Clicked On Nationality Dropdown]]>
-    </line>
-    <line>
-      <![CDATA[Delete icon clicked Successfully]]>
-    </line>
-    <line>
-      <![CDATA[clicked on yes button.]]>
-    </line>
-    <line>
-      <![CDATA[User is deleted Successfully--------------->true]]>
-    </line>
-    <line>
-      <![CDATA[User is deleted Successfully--------------->true]]>
-    </line>
-    <line>
-      <![CDATA[Element is clickable.]]>
-    </line>
-    <line>
-      <![CDATA[Select All Text----> ]]>
-    </line>
-    <line>
-      <![CDATA[Remove All Text ]]>
-    </line>
-    <line>
-      <![CDATA[Type Employee Name ----> Kunal Sharma]]>
-    </line>
-    <line>
-      <![CDATA[Employee Name Entered Successfully From List ----> Kunal Sharma]]>
-    </line>
-    <line>
-      <![CDATA[Enter Username In Search Field Successfully.----> Kunal Sharma]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on profile icon]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on logout link.]]>
-    </line>
-    <line>
-      <![CDATA[Login Page Displayed-------------->true]]>
-    </line>
-    <line>
-      <![CDATA[Browser Closed successfully.]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-08-06T17:52:24 IST" name="Default suite" finished-at="2025-08-06T17:53:56 IST" duration-ms="91442">
+  <suite started-at="2025-08-09T03:17:39 IST" name="Default suite" finished-at="2025-08-09T03:17:47 IST" duration-ms="7790">
     <groups>
     </groups>
-    <test started-at="2025-08-06T17:52:24 IST" name="Default test" finished-at="2025-08-06T17:53:56 IST" duration-ms="91442">
-      <class name="testNGExamples.HRMPIM_CURD_27">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:52:05 IST" name="beforeSuite" finished-at="2025-08-06T17:52:24 IST" duration-ms="19628" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[open Browser With Login]]>
-            </line>
-            <line>
-              <![CDATA[Login Page Displayed Successfully. -------> Login]]>
-            </line>
-            <line>
-              <![CDATA[Login Page Displayed Successfully. -------> true]]>
-            </line>
-            <line>
-              <![CDATA[Username Entered Successfully. -------> Admin]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered Successfully. -------> admin123]]>
-            </line>
-            <line>
-              <![CDATA[Click On Login Successfully. -------> admin123]]>
-            </line>
-            <line>
-              <![CDATA[Dashobard Page Displayed Successfully. ------> Dashboard]]>
-            </line>
-            <line>
-              <![CDATA[Dashobard Page Displayed Successfully. ------> true]]>
-            </line>
-            <line>
-              <![CDATA[Current Page URL: ------> https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index]]>
-            </line>
-            <line>
-              <![CDATA[Current Page Title: ------> OrangeHRM]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method signature="clickOnPIMLeftPanel()[pri:1, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:52:24 IST" name="clickOnPIMLeftPanel" description="clickOnAdminLeftPanel" finished-at="2025-08-06T17:52:26 IST" duration-ms="1533" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[PIMTab clicked successfully------------> ]]>
-            </line>
-            <line>
-              <![CDATA[PIMPage Get Text Verify Displayed Successfully.PIM]]>
-            </line>
-            <line>
-              <![CDATA[PIMPage Boolean Verify Displayed successfully------------> true]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- clickOnPIMLeftPanel -->
-        <test-method signature="clickOnLeftPanelTab()[pri:2, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:52:26 IST" name="clickOnLeftPanelTab" description="clickOnLeftPanelTab" finished-at="2025-08-06T17:52:29 IST" duration-ms="2868" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnLeftPanelTab -->
-        <test-method signature="clickOnAddButton()[pri:3, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:52:29 IST" name="clickOnAddButton" description="clickOnAddButton" finished-at="2025-08-06T17:52:31 IST" duration-ms="2580" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Add Button Clicked Successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- clickOnAddButton -->
-        <test-method signature="enterEmployeeDetails()[pri:4, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:52:31 IST" name="enterEmployeeDetails" description="enterEmployeeDetails" finished-at="2025-08-06T17:52:59 IST" duration-ms="27904" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Enter First Name]]>
-            </line>
-            <line>
-              <![CDATA[Enter Last Name]]>
-            </line>
-            <line>
-              <![CDATA[Click On Toogle Button]]>
-            </line>
-            <line>
-              <![CDATA[Select All Text----> ]]>
-            </line>
-            <line>
-              <![CDATA[Remove All Text----> ]]>
-            </line>
-            <line>
-              <![CDATA[Username Entered Successfully----> kunal187]]>
-            </line>
-            <line>
-              <![CDATA[Select All Text----> ]]>
-            </line>
-            <line>
-              <![CDATA[Remove All Text----> ]]>
-            </line>
-            <line>
-              <![CDATA[Password Entered Successfully----> Kunal@123]]>
-            </line>
-            <line>
-              <![CDATA[Select All Text----> ]]>
-            </line>
-            <line>
-              <![CDATA[Remove All Text----> ]]>
-            </line>
-            <line>
-              <![CDATA[Confirm Password Entered Successfully----> Kunal@123]]>
-            </line>
-            <line>
-              <![CDATA[Click On Save Button Successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- enterEmployeeDetails -->
-        <test-method signature="navigateToPIMDashboard()[pri:5, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:52:59 IST" name="navigateToPIMDashboard" description="navigateToPIMDashboard" finished-at="2025-08-06T17:53:03 IST" duration-ms="3490" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToPIMDashboard -->
-        <test-method signature="searchUserName()[pri:6, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:53:03 IST" name="searchUserName" description="searchUserName" finished-at="2025-08-06T17:53:20 IST" duration-ms="17454" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Element is clickable.]]>
-            </line>
-            <line>
-              <![CDATA[Select All Text----> ]]>
-            </line>
-            <line>
-              <![CDATA[Remove All Text ]]>
-            </line>
-            <line>
-              <![CDATA[Type Employee Name ----> Kunal Sharma]]>
-            </line>
-            <line>
-              <![CDATA[Employee Name Entered Successfully From List ----> Kunal Sharma]]>
-            </line>
-            <line>
-              <![CDATA[Enter Username In Search Field Successfully.----> Kunal Sharma]]>
-            </line>
-            <line>
-              <![CDATA[Click On Search Button Successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Number of records found in the list. -----> (1) Record Found]]>
-            </line>
-            <line>
-              <![CDATA[User Name Found in Records -----> ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- searchUserName -->
-        <test-method signature="clickOnEditIcon()[pri:7, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:53:20 IST" name="clickOnEditIcon" description="clickOnEditIcon" finished-at="2025-08-06T17:53:31 IST" duration-ms="10767" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+    <test started-at="2025-08-09T03:17:39 IST" name="Default test" finished-at="2025-08-09T03:17:47 IST" duration-ms="7790">
+      <class name="testNGExamples.HRMLoginDataProvider3">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNGExamples.HRMLoginDataProvider3@1ce24091]" started-at="2025-08-09T03:17:39 IST" name="beforeClass" finished-at="2025-08-09T03:17:47 IST" duration-ms="7460" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Indian']"}
-  (Session info: chrome=138.0.7204.184)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.34.0', revision: '2a4c61c498'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+              <![CDATA[unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed8a3b0e009d40955bc4faa7016ed98a, findElement {using=xpath, value=//span[text()='Indian']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50813/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ed8a3b0e009d40955bc4faa7016ed98a]]>
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Indian']"}
-  (Session info: chrome=138.0.7204.184)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.34.0', revision: '2a4c61c498'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ed8a3b0e009d40955bc4faa7016ed98a, findElement {using=xpath, value=//span[text()='Indian']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50813/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ed8a3b0e009d40955bc4faa7016ed98a
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
 at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
-at testNGExamples.HRMPIM_CURD_27.clickOnEditIcon(HRMPIM_CURD_27.java:288)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at testNGExamples.HRMLoginDataProvider3.beforeClass(HRMLoginDataProvider3.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -368,78 +70,331 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[Edit icon clicked Successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Edit icon clicked Successfully.]]>
-            </line>
-            <line>
-              <![CDATA[Clicked On Nationality Dropdown]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- clickOnEditIcon -->
-        <test-method signature="navigateToPIMDashboard2()[pri:9, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:53:31 IST" name="navigateToPIMDashboard2" description="navigateToPIMDashboard2" finished-at="2025-08-06T17:53:35 IST" duration-ms="4269" status="PASS">
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToPIMDashboard2 -->
-        <test-method signature="clickOnDeleteIcon()[pri:10, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:53:35 IST" name="clickOnDeleteIcon" description="clickOnDeleteIcon" finished-at="2025-08-06T17:53:43 IST" duration-ms="8255" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method signature="verifyLoginFunwithInvalidpassword(java.lang.String,java.lang.String)[pri:0, instance:testNGExamples.HRMLoginDataProvider3@1ce24091]" started-at="2025-08-09T03:17:47 IST" name="verifyLoginFunwithInvalidpassword" data-provider="loginData" finished-at="2025-08-09T03:17:47 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admsds]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AdJWKJWJWKJ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at testNGExamples.HRMLoginDataProvider3.beforeClass(HRMLoginDataProvider3.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
-            <line>
-              <![CDATA[Delete icon clicked Successfully]]>
-            </line>
-            <line>
-              <![CDATA[clicked on yes button.]]>
-            </line>
-            <line>
-              <![CDATA[User is deleted Successfully--------------->true]]>
-            </line>
-            <line>
-              <![CDATA[User is deleted Successfully--------------->true]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- clickOnDeleteIcon -->
-        <test-method signature="searchUserName_2()[pri:10, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:53:43 IST" name="searchUserName_2" description="searchUserName_2" finished-at="2025-08-06T17:53:56 IST" duration-ms="12283" status="PASS">
+        </test-method> <!-- verifyLoginFunwithInvalidpassword -->
+        <test-method signature="verifyLoginFunwithInvalidpassword(java.lang.String,java.lang.String)[pri:0, instance:testNGExamples.HRMLoginDataProvider3@1ce24091]" started-at="2025-08-09T03:17:47 IST" name="verifyLoginFunwithInvalidpassword" data-provider="loginData" finished-at="2025-08-09T03:17:47 IST" duration-ms="11" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at testNGExamples.HRMLoginDataProvider3.beforeClass(HRMLoginDataProvider3.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
-            <line>
-              <![CDATA[Element is clickable.]]>
-            </line>
-            <line>
-              <![CDATA[Select All Text----> ]]>
-            </line>
-            <line>
-              <![CDATA[Remove All Text ]]>
-            </line>
-            <line>
-              <![CDATA[Type Employee Name ----> Kunal Sharma]]>
-            </line>
-            <line>
-              <![CDATA[Employee Name Entered Successfully From List ----> Kunal Sharma]]>
-            </line>
-            <line>
-              <![CDATA[Enter Username In Search Field Successfully.----> Kunal Sharma]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- searchUserName_2 -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGExamples.HRMPIM_CURD_27@57a3af25]" started-at="2025-08-06T17:53:56 IST" name="afterSuite" finished-at="2025-08-06T17:54:05 IST" duration-ms="8756" status="PASS">
+        </test-method> <!-- verifyLoginFunwithInvalidpassword -->
+        <test-method signature="verifyLoginFunwithInvalidpassword(java.lang.String,java.lang.String)[pri:0, instance:testNGExamples.HRMLoginDataProvider3@1ce24091]" started-at="2025-08-09T03:17:47 IST" name="verifyLoginFunwithInvalidpassword" data-provider="loginData" finished-at="2025-08-09T03:17:47 IST" duration-ms="6" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at testNGExamples.HRMLoginDataProvider3.beforeClass(HRMLoginDataProvider3.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
-            <line>
-              <![CDATA[Clicked on profile icon]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on logout link.]]>
-            </line>
-            <line>
-              <![CDATA[Login Page Displayed-------------->true]]>
-            </line>
-            <line>
-              <![CDATA[Browser Closed successfully.]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testNGExamples.HRMPIM_CURD_27 -->
+        </test-method> <!-- verifyLoginFunwithInvalidpassword -->
+        <test-method signature="verifyLoginFunwithInvalidpassword(java.lang.String,java.lang.String)[pri:0, instance:testNGExamples.HRMLoginDataProvider3@1ce24091]" started-at="2025-08-09T03:17:47 IST" name="verifyLoginFunwithInvalidpassword" data-provider="loginData" finished-at="2025-08-09T03:17:47 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dfsfsf32]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: JavaScript code failed
+from unknown command: 'Runtime.evaluate' wasn't found
+  (Session info: chrome=137.0.7151.120)
+Build info: version: '4.26.0', revision: '69f9e5e'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4dcee6438b1e597c3ca0ab802a111c33, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.120, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\kunal\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65510}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65510/devtoo..., se:cdpVersion: 137.0.7151.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4dcee6438b1e597c3ca0ab802a111c33
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+at testNGExamples.HRMLoginDataProvider3.beforeClass(HRMLoginDataProvider3.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunwithInvalidpassword -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNGExamples.HRMLoginDataProvider3@1ce24091]" started-at="2025-08-09T03:17:47 IST" name="afterClass" finished-at="2025-08-09T03:17:47 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testNGExamples.HRMLoginDataProvider3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
