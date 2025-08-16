@@ -3,14 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGExamples.HRMLoginDataProvider3">
+      <class name="tests.AdminTest">
         <methods>
-          <include name="afterClass"/>
-          <include name="beforeClass"/>
-          <include name="refreshPage"/>
-          <include name="verifyLoginFunwithInvalidpassword"/>
+          <include name="afterSuite"/>
+          <include name="closeBrowserWithLogout"/>
+          <include name="openBrowserWithLogin"/>
+          <include name="afterMethod"/>
+          <include name="navigateToHomePage"/>
+          <include name="verifyAdddUserFun"/>
+          <include name="beforeSuite"/>
         </methods>
-      </class> <!-- testNGExamples.HRMLoginDataProvider3 -->
+      </class> <!-- tests.AdminTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

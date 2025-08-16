@@ -39,7 +39,7 @@ public class HRMLeftPanelFunWithValidation {
 	 @Test(priority=3)
 	  public void verifyLeavePageVisibility()throws Exception {
 		 driver.findElement(By.xpath("//span[text()='Leave']")).click();
-		 Reporter.log("PIM clicked successfully.", true);
+		 Reporter.log("Leave clicked successfully.", true);
 		 Thread.sleep(5000);
 		 
 		 boolean flag=driver.findElement(By.xpath("//h6[text()='Leave']")).isDisplayed();
@@ -53,7 +53,7 @@ public class HRMLeftPanelFunWithValidation {
 	 @Test(priority=4)
 	  public void verifyTimePageVisibility() throws Exception{
 		 driver.findElement(By.xpath("//span[text()='Time']")).click();
-		 Reporter.log("PIM clicked successfully.", true);
+		 Reporter.log("Time clicked successfully.", true);
 		 Thread.sleep(5000);
 		 
 		 boolean flag=driver.findElement(By.xpath("//h6[text()='Time']")).isDisplayed();
@@ -130,7 +130,7 @@ public class HRMLeftPanelFunWithValidation {
 	 @Test(priority=10)
 	  public void verifyMaintenancePageVisibility()throws Exception {
 		 driver.findElement(By.xpath("//span[text()='Maintenance']")).click();
-		 Reporter.log("PIM clicked successfully.", true);
+		 Reporter.log("Maintenance clicked successfully.", true);
 		 Thread.sleep(5000);
 		 
 		 

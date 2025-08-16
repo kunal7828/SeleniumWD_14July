@@ -1,0 +1,13 @@
+<suite name="ResultFolderName">
+	<test name="AdminTestHTMLReport">
+		<classes>
+			<class name="testNG.AdminTest"/>
+		</classes>
+	</test>
+	
+	<test name="LoginTestHTMLReport">
+		<classes>
+			<class name="testNG.HRMLoginWithDataProvider"/>
+		</classes>
+	</test>
+</suite>

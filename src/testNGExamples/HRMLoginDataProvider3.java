@@ -3,6 +3,7 @@ package testNGExamples;
 import org.testng.annotations.Test;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -28,14 +29,15 @@ public void refreshPage() throws Exception {
 	driver.navigate().refresh();
 	Thread.sleep(3000);
 }
-  @BeforeClass
+  @BeforeMethod
   public void beforeClass() throws Exception {
   driver= new ChromeDriver();
   driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
   driver.manage().window().maximize();
   Thread.sleep(5000);
 	}
-  @AfterClass
+
+@AfterMethod
   public void afterClass() {
 	  
 	  driver.quit();

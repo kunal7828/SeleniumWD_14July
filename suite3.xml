@@ -1,0 +1,8 @@
+<suite name="ResultFolderName" parallel="classes" thread-count="10">
+	<test name="AdminTestHTMLReport">
+		<classes>
+			<class name="testNG.AdminTest"/>
+			<class name="testNG.HRMLoginWithDataProvider"/>
+		</classes>
+	</test>
+</suite>

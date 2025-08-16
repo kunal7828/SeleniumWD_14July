@@ -1,6 +1,10 @@
 package common;
 
 import org.testng.annotations.Test;
+
+import pages.HomePage;
+import pages.LoginPage;
+
 import org.testng.annotations.BeforeSuite;
 
 import java.io.File;
@@ -45,12 +49,27 @@ public class BaseSetup {
 		  driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		 Thread.sleep(3000);
 		 driver.manage().window().maximize();
-		 driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
-		 driver.findElement(By.xpath("//input[@placeholder = 'Password']")).sendKeys("admin123");
-		 driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
-		 Thread.sleep(3000);
-		 //driver.findElement(By.xpath("//button[@type='submit']")).click();
-		 //Thread.sleep(3000);
+			/*
+			 * driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(
+			 * "Admin");
+			 * driver.findElement(By.xpath("//input[@placeholder = 'Password']")).sendKeys(
+			 * "admin123");
+			 * driver.findElement(By.xpath("//button[normalize-space()='Login']")).click();
+			 * Thread.sleep(3000);
+			 * //driver.findElement(By.xpath("//button[@type='submit']")).click();
+			 * //Thread.sleep(3000);
+			 */	 
+		 
+		  LoginPage loginPage= new LoginPage(driver);
+		  loginPage.enterUserName("Admin");
+		  loginPage.enterPassword("admin123");
+		  loginPage.clickOnLogin();
+
+		  //validate loginPage
+		  HomePage homePage=new HomePage(driver); 
+		  homePage.validateDashboard(); 
+		  Thread.sleep(3000);
+
 	  }
 
 	  @AfterSuite
@@ -58,6 +77,9 @@ public class BaseSetup {
 //		  driver.findElement(By.xpath("//span[@class='oxd-userdropdown-tab']")).click();
 //		  Thread.sleep(3000);
 //		  driver.findElement(By.xpath("//a[text()='Logout']")).click();
+		  HomePage homePage=new HomePage(driver);
+		  homePage.validateLogOut();
+		
 		  driver.quit();
 		  Thread.sleep(3000);
 		  System.out.println("closeBrowserWithLogout");
