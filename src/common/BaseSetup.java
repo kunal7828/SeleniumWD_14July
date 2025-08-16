@@ -23,7 +23,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
 public class BaseSetup {
-	public WebDriver driver;
+	public static WebDriver driver;
+	//static keyword directly class name se call ho jate h
  
 	
 	@BeforeMethod
@@ -60,13 +61,16 @@ public class BaseSetup {
 			 * //Thread.sleep(3000);
 			 */	 
 		 
-		  LoginPage loginPage= new LoginPage(driver);
-		  loginPage.enterUserName("Admin");
+		//  LoginPage loginPage= new LoginPage(driver);
+
+		  LoginPage loginPage= new LoginPage();
+		 loginPage.enterUserName("Admin");
 		  loginPage.enterPassword("admin123");
 		  loginPage.clickOnLogin();
 
 		  //validate loginPage
-		  HomePage homePage=new HomePage(driver); 
+	//	  HomePage homePage=new HomePage(driver); 
+		  HomePage homePage=new HomePage(); 
 		  homePage.validateDashboard(); 
 		  Thread.sleep(3000);
 
@@ -77,7 +81,8 @@ public class BaseSetup {
 //		  driver.findElement(By.xpath("//span[@class='oxd-userdropdown-tab']")).click();
 //		  Thread.sleep(3000);
 //		  driver.findElement(By.xpath("//a[text()='Logout']")).click();
-		  HomePage homePage=new HomePage(driver);
+//		  HomePage homePage=new HomePage(driver);
+		  HomePage homePage=new HomePage();
 		  homePage.validateLogOut();
 		
 		  driver.quit();

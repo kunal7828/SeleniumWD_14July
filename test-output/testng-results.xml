@@ -1,108 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[User name entered successfully. Admin]]>
-    </line>
-    <line>
-      <![CDATA[Password entered successfully. admin123]]>
-    </line>
-    <line>
-      <![CDATA[Login clicked successfully ]]>
-    </line>
-    <line>
-      <![CDATA[Home page isible successfullytrue]]>
-    </line>
-    <line>
-      <![CDATA[Admin clicked successfully--> ]]>
-    </line>
-    <line>
-      <![CDATA[Admin Page visible successfully--> true]]>
-    </line>
-    <line>
-      <![CDATA[Click on add button successfully.]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on profile icon]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on logout link.]]>
-    </line>
-    <line>
-      <![CDATA[Login Page Displayed-------------->true]]>
-    </line>
   </reporter-output>
-  <suite started-at="2025-08-15T22:07:45 IST" name="Default suite" finished-at="2025-08-15T22:07:55 IST" duration-ms="10479">
+  <suite started-at="2025-08-16T13:48:03 IST" name="Default suite" finished-at="2025-08-16T13:48:10 IST" duration-ms="6837">
     <groups>
     </groups>
-    <test started-at="2025-08-15T22:07:45 IST" name="Default test" finished-at="2025-08-15T22:07:55 IST" duration-ms="10479">
-      <class name="tests.AdminTest">
-        <test-method is-config="true" signature="openBrowserWithLogin()[pri:0, instance:tests.AdminTest@7c9d8e2]" started-at="2025-08-15T22:07:27 IST" name="openBrowserWithLogin" finished-at="2025-08-15T22:07:45 IST" duration-ms="17683" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[User name entered successfully. Admin]]>
-            </line>
-            <line>
-              <![CDATA[Password entered successfully. admin123]]>
-            </line>
-            <line>
-              <![CDATA[Login clicked successfully ]]>
-            </line>
-            <line>
-              <![CDATA[Home page isible successfullytrue]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- openBrowserWithLogin -->
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:tests.AdminTest@7c9d8e2]" started-at="2025-08-15T22:07:45 IST" name="beforeSuite" finished-at="2025-08-15T22:07:45 IST" depends-on-methods="common.BaseSetup.openBrowserWithLogin" duration-ms="2" status="PASS">
+    <test started-at="2025-08-16T13:48:03 IST" name="Default test" finished-at="2025-08-16T13:48:10 IST" duration-ms="6837">
+      <class name="testNGExamples.TestLogin">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGExamples.TestLogin@1ce24091]" started-at="2025-08-16T13:47:51 IST" name="beforeSuite" finished-at="2025-08-16T13:48:03 IST" duration-ms="12350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="navigateToHomePage()[pri:0, instance:tests.AdminTest@7c9d8e2]" started-at="2025-08-15T22:07:45 IST" name="navigateToHomePage" finished-at="2025-08-15T22:07:45 IST" duration-ms="517" status="PASS">
+        <test-method signature="verifyLoginFunctionality()[pri:0, instance:testNGExamples.TestLogin@1ce24091]" started-at="2025-08-16T13:48:04 IST" name="verifyLoginFunctionality" finished-at="2025-08-16T13:48:10 IST" duration-ms="6629" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToHomePage -->
-        <test-method signature="verifyAdddUserFun()[pri:0, instance:tests.AdminTest@7c9d8e2]" started-at="2025-08-15T22:07:45 IST" name="verifyAdddUserFun" finished-at="2025-08-15T22:07:52 IST" duration-ms="6653" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Admin clicked successfully--> ]]>
-            </line>
-            <line>
-              <![CDATA[Admin Page visible successfully--> true]]>
-            </line>
-            <line>
-              <![CDATA[Click on add button successfully.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyAdddUserFun -->
-        <test-method is-config="true" signature="afterMethod(java.lang.reflect.Method)[pri:0, instance:tests.AdminTest@7c9d8e2]" started-at="2025-08-15T22:07:52 IST" name="afterMethod" finished-at="2025-08-15T22:07:55 IST" duration-ms="3205" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void tests.AdminTest.verifyAdddUserFun() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:tests.AdminTest@7c9d8e2]" started-at="2025-08-15T22:07:55 IST" name="afterSuite" finished-at="2025-08-15T22:07:55 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- verifyLoginFunctionality -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGExamples.TestLogin@1ce24091]" started-at="2025-08-16T13:48:11 IST" name="afterSuite" finished-at="2025-08-16T13:48:49 IST" duration-ms="38499" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="closeBrowserWithLogout()[pri:0, instance:tests.AdminTest@7c9d8e2]" started-at="2025-08-15T22:07:55 IST" name="closeBrowserWithLogout" finished-at="2025-08-15T22:08:07 IST" depends-on-methods="tests.AdminTest.afterSuite" duration-ms="11470" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Clicked on profile icon]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on logout link.]]>
-            </line>
-            <line>
-              <![CDATA[Login Page Displayed-------------->true]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- closeBrowserWithLogout -->
-      </class> <!-- tests.AdminTest -->
+      </class> <!-- testNGExamples.TestLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

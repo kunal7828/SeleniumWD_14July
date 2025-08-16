@@ -2,6 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
+import common.BaseSetup;
 import pages.HomePage;
 import pages.LoginPage;
 
@@ -18,19 +19,21 @@ import org.openqa.selenium.io.FileHandler;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 
-public class LoginTest {
+public class LoginTest extends BaseSetup {
 	
-	WebDriver driver;
+//	WebDriver driver;
 
   @Test
   public void verifyLoginFunctionality() throws Exception {
-	  LoginPage loginPage= new LoginPage(driver);
+	//  LoginPage loginPage= new LoginPage(driver);  
+	  LoginPage loginPage= new LoginPage();  //ab driver ko initialize karne ki need nhi h safe action se page me extend kardiya h base setup driver static 
 	  loginPage.enterUserName("Admin");
 	  loginPage.enterPassword("admin123");
 	  loginPage.clickOnLogin();
 	  
 	  //validate loginPage
-	  HomePage homePage=new HomePage(driver);
+	  //HomePage homePage=new HomePage(driver);
+	  HomePage homePage=new HomePage();
 	  homePage.validateDashboard();
   }
   

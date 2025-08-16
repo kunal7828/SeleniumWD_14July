@@ -55,86 +55,34 @@ public class LeftPanelPage {
 	String buzzTabLoc = "//span[text()='Buzz']";
 	String buzzHeaderLoc = "//h6[text()='Buzz']";
 
-	public void clickOnAdminTab() throws Exception {
+	/*
+	 * public void clickOnAdminTab() throws Exception { Thread.sleep(3000);
+	 * driver.findElement(By.xpath(adminTabLoc)).click(); Thread.sleep(2000);
+	 * Reporter.log("Admin clicked successfully--> ", true); boolean flag =
+	 * driver.findElement(By.xpath(adminHeaderLoc)).isDisplayed();
+	 * Reporter.log("Admin Page visible successfully--> " + flag, true); }
+	 */
+	
+	
+	public void clickOnLeftPanelTab(String tabName) throws Exception {
+		
+		
 		Thread.sleep(3000);
-		driver.findElement(By.xpath(adminTabLoc)).click();
-		Thread.sleep(2000);
-		Reporter.log("Admin clicked successfully--> ", true);
-		boolean flag = driver.findElement(By.xpath(adminHeaderLoc)).isDisplayed();
-		Reporter.log("Admin Page visible successfully--> " + flag, true);
-	}
+		driver.findElement(By.xpath("//span[text()= '"+tabName+"']")).click();
+		Reporter.log(tabName+" tab clicked successfully.");
+		Thread.sleep(3000);
+}
+	
+	public void validatePageVisibility(String dashboardName)
+	{
+	boolean flag=	driver.findElement(By.xpath("//h6[text()='"+dashboardName+"']")).isDisplayed();
+	Reporter.log(dashboardName+" page visible successfully: "+flag, true);
+	Assert.assertEquals(flag, true);
+	}	
+	
+	
+	
 
-	public void clickOnPIMTab() throws Exception {
-		driver.findElement(By.xpath(pimTabLoc)).click();
-		Reporter.log("PIM clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(pimHeaderLoc)).isDisplayed();
-		Reporter.log("PIM Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
-
-	public void clickOnLeaveTab() throws Exception {
-		driver.findElement(By.xpath(leaveTabLoc)).click();
-		Reporter.log("Leave clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(leaveTabLoc)).isDisplayed();
-		Reporter.log("Leave Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
-
-	public void clickOnTimeTab() throws Exception {
-		driver.findElement(By.xpath(timeTabLoc)).click();
-		Reporter.log("Time clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(timeHeaderLoc)).isDisplayed();
-		Reporter.log("Time Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
-
-	public void clickOnRecruitmentTab() throws Exception {
-		driver.findElement(By.xpath(recruitmentTabLoc)).click();
-		Reporter.log("Recruitment clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(recruitmentHeaderLoc)).isDisplayed();
-		Reporter.log("Recruitment Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
-
-	public void clickOnMyInfoTab() throws Exception {
-		driver.findElement(By.xpath(myInfoTabLoc)).click();
-		Reporter.log("MyInfo clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(myInfoHeaderLoc)).isDisplayed();
-		Reporter.log("PIM Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
-
-	public void clickOnPerformanceTab() throws Exception {
-		driver.findElement(By.xpath(performanceTabLoc)).click();
-		Reporter.log("Performance clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(performanceHeaderLoc)).isDisplayed();
-		Reporter.log("Performance Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
-
-	public void clickOnDashboardTab() throws Exception {
-		driver.findElement(By.xpath(dashboardTabLoc)).click();
-		Reporter.log("Dashboard clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(dashboardHeaderLoc)).isDisplayed();
-		Reporter.log("Dashboard Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
-
-	public void clickOnDirectoryTab() throws Exception {
-		driver.findElement(By.xpath(directoryTabLoc)).click();
-		Reporter.log("Directory clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(directoryHeaderLoc)).isDisplayed();
-		Reporter.log("Directory Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
 
 	public void clickOnMaintenanceTab() throws Exception {
 		driver.findElement(By.xpath(maintenanceTabLoc)).click();
@@ -162,23 +110,5 @@ public class LeftPanelPage {
 		Assert.assertEquals(flag, true);
 	}
 
-	public void clickOnClaimTab() throws Exception {
-		driver.findElement(By.xpath(claimTabLoc)).click();
-		Reporter.log("Claim clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(claimHeaderLoc)).isDisplayed();
-		Reporter.log("Claim Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
-
-	public void clickOnBuzzTab() throws Exception {
-
-		driver.findElement(By.xpath(buzzTabLoc)).click();
-		Reporter.log("Buzz clicked successfully--> ", true);
-		Thread.sleep(5000);
-		boolean flag = driver.findElement(By.xpath(buzzHeaderLoc)).isDisplayed();
-		Reporter.log("Buzz Page visible successfully--> " + flag, true);
-		Assert.assertEquals(flag, true);
-	}
 
 }
