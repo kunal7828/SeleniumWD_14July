@@ -6,18 +6,37 @@ import org.testng.Reporter;
 
 public class SafeActions {
 	
-	WebDriver driver;
+	/*
+	 * WebDriver driver;
+	 * 
+	 * public SafeActions(WebDriver driver) { // TODO Auto-generated constructor
+	 * stub System.out.println("This is a constructor block of Safe Actions");
+	 * //static keyword directly class name se call ho jate h // this.driver=driver;
+	 * //now we can write like this
+	 * 
+	 * 
+	 * this.driver=BaseSetup.driver; }
+	 */
 	
-	public SafeActions(WebDriver driver) {
-		// TODO Auto-generated constructor stub
-		System.out.println("This is a constructor block of Safe Actions");
-		//static keyword directly class name se call ho jate h 
-	//	this.driver=driver;  //now we can write like this
+	  protected WebDriver driver;
 
-		this.driver=BaseSetup.driver;
-	}
-	
-	
+	    // ✅ Default constructor (Fix for implicit super() call issue)
+	    public SafeActions() {
+	        // Empty constructor
+	    }
+
+	    // ✅ Parameterized constructor
+	    public SafeActions(WebDriver driver) {
+	        this.driver = driver;
+	    }
+
+	    // ✅ Optional: Setter method if you want to set driver later
+	    public void setDriver(WebDriver driver) {
+	        this.driver = driver;
+	    }
+	    
+	    
+	    
 
 	public void safeClick(String locator) {
 		driver.findElement(By.xpath(locator)).click();

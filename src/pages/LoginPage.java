@@ -11,17 +11,18 @@ import common.SafeActions;
 
 public class LoginPage extends SafeActions {
 
-//	WebDriver driver;
-
 	/*
+	 * // WebDriver driver;
+	 * 
+	 * 
 	 * //safe action is class me extend karne ke baad is class me constructor banane
 	 * ki koi need nhi h pages me public LoginPage(WebDriver driver) { //page me
 	 * banayege constructor parameterized
 	 * System.out.println("This is constructor block of LoginPage");
 	 * this.driver=driver; //jese hi ye banayege test cls me error ayegi test case
 	 * ke object me driver pass karo }
+	 * 
 	 */
-
 	String userNameLoc = "//input[contains(@name,'user')]";
 	String passWordLoc = "//input[contains(@name,'pass')]";
 	String loginButtonLoc = "//button[contains(@type,'sub')]";

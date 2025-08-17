@@ -6,7 +6,7 @@ import org.testng.Reporter;
 
 import common.SafeActions;
 
-public class AdminPage extends SafeActions{
+public class AdminPage extends SafeActions {
 
 	/*
 	 * WebDriver driver;
