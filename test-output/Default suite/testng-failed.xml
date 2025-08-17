@@ -3,18 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.LeftPanelTest">
+      <class name="tests.AdminTest">
         <methods>
-          <include name="verifyPIMPageVisiblity"/>
           <include name="closeBrowserWithLogout"/>
-          <include name="verifyTimePageVisiblity"/>
-          <include name="verifyAdminPageVisiblity"/>
-          <include name="openBrowserWithLogin"/>
+          <include name="afterSuite"/>
           <include name="navigateToHomePage"/>
+          <include name="openBrowserWithLogin"/>
           <include name="afterMethod"/>
-          <include name="verifyLeavePageVisiblity"/>
+          <include name="verifyAdddUserFun"/>
+          <include name="beforeSuite"/>
         </methods>
-      </class> <!-- tests.LeftPanelTest -->
+      </class> <!-- tests.AdminTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
