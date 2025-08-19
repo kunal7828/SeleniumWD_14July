@@ -3,17 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.AdminTest">
+      <class name="testNGExamples.AdminTest24">
         <methods>
-          <include name="closeBrowserWithLogout"/>
-          <include name="afterSuite"/>
-          <include name="navigateToHomePage"/>
-          <include name="openBrowserWithLogin"/>
+          <include name="verifyUpdateUserFun"/>
+          <include name="verifySearchUserFun"/>
+          <include name="beforeMethod"/>
+          <include name="verifyAddUserFun"/>
+          <include name="verifyDeleteUserFun"/>
+          <include name="beforeClass"/>
           <include name="afterMethod"/>
-          <include name="verifyAdddUserFun"/>
-          <include name="beforeSuite"/>
+          <include name="afterClass"/>
         </methods>
-      </class> <!-- tests.AdminTest -->
+      </class> <!-- testNGExamples.AdminTest24 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

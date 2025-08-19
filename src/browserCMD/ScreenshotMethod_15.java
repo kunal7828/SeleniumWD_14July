@@ -1,4 +1,4 @@
-package basicProgram;
+package browserCMD;
 
 import java.io.File;
 
@@ -30,8 +30,7 @@ public class ScreenshotMethod_15 {
 	
 	public void takeScreenshotMethod(String screenshotName) throws Exception
 	{
-		TakesScreenshot takesScreenshot=(TakesScreenshot) driver;
-		
+		TakesScreenshot takesScreenshot=(TakesScreenshot) driver;		
 		File src= takesScreenshot.getScreenshotAs(OutputType.FILE);
 		File des=new File(screenshotName+".png");
 		FileHandler.copy(src, des);
@@ -42,7 +41,6 @@ public class ScreenshotMethod_15 {
 	public void takeScreenshotOfWebElement(String screenshotName) throws Exception
 	{
 		WebElement username=driver.findElement(By.xpath("//input[@name='username' and @placeholder='Username']"));
-		
 		File src= username.getScreenshotAs(OutputType.FILE);
 		File des=new File(screenshotName+".png");
 		FileHandler.copy(src, des);

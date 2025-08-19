@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [ResultFolderName]">
+  <test thread-count="2" parallel="tests" name="ChromeTest_HRM(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNGExamples.HRMAdmin_CURD_26">
+        <methods>
+          <include name="clickOnSearchButton_2"/>
+          <include name="selectEmployeeName_2"/>
+          <include name="clickOnEditIcon"/>
+          <include name="clickOnSearchButton"/>
+          <include name="clickOnDeleteIcon"/>
+          <include name="enterPassword_2"/>
+          <include name="afterSuite"/>
+          <include name="selectUserRoleDD_2"/>
+          <include name="clickOnCheckBox"/>
+          <include name="searchUserName"/>
+          <include name="beforeSuite"/>
+          <include name="clickOnSaveButton_2"/>
+          <include name="searchUserName_2"/>
+          <include name="enterUsername_2"/>
+          <include name="enterConfirmPassword_2"/>
+          <include name="selectStatusDD_2"/>
+        </methods>
+      </class> <!-- testNGExamples.HRMAdmin_CURD_26 -->
+    </classes>
+  </test> <!-- ChromeTest_HRM(failed) -->
+</suite> <!-- Failed suite [ResultFolderName] -->

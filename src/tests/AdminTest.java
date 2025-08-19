@@ -31,15 +31,10 @@ public class AdminTest extends BaseSetup{
 	  AdminPage adminPage= new AdminPage();
 
 	  adminPage.clickOnAddButton();
-	  adminPage.selectUserRoleDD(userRole1);
+	//  adminPage.clickOnUserRoleDD();
+//	  adminPage.selectValueFromUserRoleDD(userRole1);
  
   }
-  @BeforeSuite
-  public void beforeSuite() {
-  }
 
-  @AfterSuite
-  public void afterSuite() {
-  }
 
 }
